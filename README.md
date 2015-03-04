@@ -24,8 +24,15 @@ A Reminder for my Future Self on How To Get Things Done. Included in this great 
 
 ### Objective C
 * [Native Data Types][ObjectiveC_NativeDataTypes]
-* Important Objects
-* Methods
+* C Functions
+* Structs
+* Pointers
+* Arrays
+* Operators
+* Flow Controls
+* Classes
+* Class Methods
+* Instance Variables
 [ObjectiveC_NativeDataTypes]: ObjectiveC/NativeDataTypes.md "ObjectiveC Native Data Types"
 
 ### Swift
