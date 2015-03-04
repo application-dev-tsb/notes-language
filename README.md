@@ -23,10 +23,8 @@ A Reminder for my Future Self on How To Get Things Done
 * Methods
 
 # References
-* [Markdown Files][ref1]
-* [Language Syntax Highlighting][ref2]
-[ref1]:https://help.github.com/articles/github-flavored-markdown/
-[ref2]:http://tinker.kotaweaver.com/blog/?p=152
+* [Markdown Files](https://help.github.com/articles/github-flavored-markdown/)
+* [Language Syntax Highlighting](http://tinker.kotaweaver.com/blog/?p=152)
 
 
 
