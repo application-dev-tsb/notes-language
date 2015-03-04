@@ -21,4 +21,4 @@ Reference: https://help.github.com/articles/github-flavored-markdown/
 * Important Objects
 * Methods
 
-[Java_NativeDataTypes]: (Java/NativeDataTypes.md) "Java Native Data Types"
+[Java_NativeDataTypes]: Java/NativeDataTypes.md "Java Native Data Types"
