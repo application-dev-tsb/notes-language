@@ -12,7 +12,7 @@ Reference: https://help.github.com/articles/github-flavored-markdown/
 ## Javascript
 
 ## Objective C
-* Native Data Types
+* [Native Data Types][ObjectiveC_NativeDataTypes]
 * Important Objects
 * Methods
 
@@ -22,3 +22,5 @@ Reference: https://help.github.com/articles/github-flavored-markdown/
 * Methods
 
 [Java_NativeDataTypes]: Java/NativeDataTypes.md "Java Native Data Types"
+
+[ObjectiveC_NativeDataTypes]: ObjectiveC/NativeDataTypes.md "ObjectiveC Native Data Types"
