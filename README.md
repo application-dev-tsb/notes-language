@@ -1,10 +1,11 @@
 # Notes
 A Reminder for my Future Self on How To Get Things Done
+Reference: https://help.github.com/articles/github-flavored-markdown/
 
 #Table Of Contents
 
 ## Java
-* Native Data Types
+* [Native Data Types][Java_NativeDataTypes]
 * Important Objects
 * Methods
 
@@ -19,3 +20,5 @@ A Reminder for my Future Self on How To Get Things Done
 * Native Data Types
 * Important Objects
 * Methods
+
+[Java_NativeDataTypes]: (Java/NativeDataTypes.md) "Java Native Data Types"
