@@ -30,7 +30,8 @@ A Reminder for my Future Self on How To Get Things Done
 
 ### Swift
 * [Data Types](/Swift/DataTypes.md)
-* Operators
+* [Operators](/Swift/Operators.md)
+* [Collections](/Swift/Collections.md)
 * Strings and Characters
 * Functions
 * Closures
