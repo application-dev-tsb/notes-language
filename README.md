@@ -19,8 +19,22 @@ A Reminder for my Future Self on How To Get Things Done
 
 ### Swift
 * Native Data Types
-* Important Objects
+* Operators
+* Strings and Characters
+* Functions
+* Closures
+* Enumerations
+* Classes
+* Structures
+* Properties
 * Methods
+* Subscripts
+* Initialization
+* Deinitialization
+* Extensions
+* Protocols
+* Generics
+* Attributes
 
 # References
 * [Markdown Files](https://help.github.com/articles/github-flavored-markdown/)
