@@ -29,7 +29,7 @@ A Reminder for my Future Self on How To Get Things Done
 [ObjectiveC_NativeDataTypes]: ObjectiveC/NativeDataTypes.md "ObjectiveC Native Data Types"
 
 ### Swift
-* Data Types
+* [Data Types](/Swift/DataTypes.md)
 * Operators
 * Strings and Characters
 * Functions
