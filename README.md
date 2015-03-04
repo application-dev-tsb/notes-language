@@ -1,5 +1,5 @@
 # Notes
-A Reminder for my Future Self on How To Get Things Done
+A Reminder for my Future Self on How To Get Things Done. Included in this great wall of texts are novice language stuffs which I would probably forget/confuse when I start using all of them simultaneously.
 
 #Table Of Contents
 
