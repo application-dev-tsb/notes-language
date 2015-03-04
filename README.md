@@ -7,6 +7,17 @@ A Reminder for my Future Self on How To Get Things Done
 * [Native Data Types][Java_NativeDataTypes]
 * Important Objects
 * Methods
+* Data Types
+* Operators
+* Classes and Objects
+* Interface
+* Generics
+* Enums
+* Strings
+* Date and Time
+* Regular Expressions
+* Lambda/Closures
+* Stream API
 [Java_NativeDataTypes]: Java/NativeDataTypes.md "Java Native Data Types"
 
 ### Javascript
@@ -18,7 +29,7 @@ A Reminder for my Future Self on How To Get Things Done
 [ObjectiveC_NativeDataTypes]: ObjectiveC/NativeDataTypes.md "ObjectiveC Native Data Types"
 
 ### Swift
-* Native Data Types
+* Data Types
 * Operators
 * Strings and Characters
 * Functions
