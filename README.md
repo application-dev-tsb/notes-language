@@ -37,10 +37,11 @@ A Reminder for my Future Self on How To Get Things Done. Included in this great 
 
 ### Swift
 * [Data Types](/Swift/DataTypes.md)
+* Functions
 * [Operators and Operator Functions](/Swift/Operators.md)
 * [Collections](/Swift/Collections.md)
 * Strings and Characters
-* Functions
+* Tuples
 * [Closures](/Swift/Closures.md)
 * Enumerations
 * Classes
@@ -48,8 +49,7 @@ A Reminder for my Future Self on How To Get Things Done. Included in this great 
 * Properties
 * Methods
 * Subscripts
-* Initialization
-* Deinitialization
+* Initialization and Deinitialization
 * Extensions
 * Protocols
 * Generics
