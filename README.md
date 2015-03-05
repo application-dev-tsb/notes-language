@@ -45,7 +45,7 @@ A Reminder for my Future Self on How To Get Things Done. Included in this great 
 * [Closures](/Swift/Closures.md)
 * Enumerations
 * Classes
-* Structures
+* [Structures](/Swift/Structures.md)
 * Properties
 * Methods
 * Subscripts
