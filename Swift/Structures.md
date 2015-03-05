@@ -1,6 +1,6 @@
 #Structures
 
-* always pass as copies
+* always passed on as copies
 * have member-wise initializers
 ```swift
 struct Resolution {
