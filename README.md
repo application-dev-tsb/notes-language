@@ -41,7 +41,7 @@ A Reminder for my Future Self on How To Get Things Done. Included in this great 
 * [Collections](/Swift/Collections.md)
 * Strings and Characters
 * Functions
-* Closures
+* [Closures](/Swift/Closures.md)
 * Enumerations
 * Classes
 * Structures
