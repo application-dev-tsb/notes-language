@@ -1,6 +1,7 @@
 #Structures
 
 * always passed on as copies
+* String, Array, and Dictionaries are Structs 
 * have member-wise initializers
 ```swift
 struct Resolution {
