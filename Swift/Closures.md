@@ -3,9 +3,13 @@
 ##Syntax
 
 ```swift
+//inline closure
 { (<params>) -> (<return type>) in
 <statements>
 }
+
+//as params or data type:
+(<params> -> <return>)
 ```
 
 ### Method with Closure as a parameter
@@ -20,6 +24,10 @@ func runClosure(myClosure:(String,String->String)) {
 runClosure({ (s1: String, s2: String) -> String in
   return "\(s1) \(s2)"
 })
+
+var closureAsVar:((String,String)->String) = { (p1,p2) in
+  return "xx"
+}
 
 ```
 
