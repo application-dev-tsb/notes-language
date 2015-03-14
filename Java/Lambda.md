@@ -4,7 +4,7 @@
 * an anonymous function/method
 
 ## Functional Interface
-* an Interface with only one abstract method
+* an Interface with EXACTLY one abstract method
 ```java
 public interface MyFunctionalInterface {
 	String convertMe(String myObject);
@@ -18,7 +18,15 @@ public class Main {
 	public static void main(String[] args) {
 		Main m = new  Main();
 		
+		//single line
 		String prod = m.convertList("aaaaa", (String s) -> String.format("muhaha %s", s));
+		System.out.println(prod);
+		
+		//multiline
+		prod = m.convertList("aaaaa", (String s) -> {
+			String pre = String.format("muhaha %s", s);
+			return pre + " xxxxx";
+		});
 		System.out.println(prod);
 	}
 	
