@@ -55,6 +55,12 @@ A Reminder for my Future Self on How To Get Things Done. Included in this great 
 * Generics
 * Attributes
 
+### Design Patterns
+* Strategy
+* Factory
+* Singleton
+* MVC
+
 # References
 * [Markdown Files](https://help.github.com/articles/github-flavored-markdown/)
 * [Language Syntax Highlighting](http://tinker.kotaweaver.com/blog/?p=152)
