@@ -16,7 +16,7 @@ A Reminder for my Future Self on How To Get Things Done. Included in this great 
 * Strings
 * Date and Time
 * Regular Expressions
-* Lambda/Closures
+* [Lambda/Closures](/Java/Lambda.md)
 * Stream API
 [Java_NativeDataTypes]: Java/NativeDataTypes.md "Java Native Data Types"
 
