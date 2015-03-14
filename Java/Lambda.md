@@ -5,7 +5,9 @@
 
 ## Functional Interface
 * an Interface with EXACTLY one abstract method
+* use @FunctionalInterface annotation for good measures
 ```java
+@FunctionalInterface //optional, but good practice
 public interface MyFunctionalInterface {
 	String convertMe(String myObject);
 }
