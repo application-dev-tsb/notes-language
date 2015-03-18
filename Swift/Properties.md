@@ -18,6 +18,11 @@ class MyClass {
     }
   }
   
+  //read-only computed
+  var myRO: Int {
+    return 1
+  }
+  
   
 }
 
@@ -25,3 +30,19 @@ class MyClass {
 ```
 
 ##Property Observers
+gets called before and after a property is set
+```swift
+class MyOtherClass {
+
+  var myVar: Int = 1 {
+    willSet {
+      //use "newValue"
+    }
+    didSet {
+      //use "oldValue"
+    }
+  }
+}
+
+
+```
