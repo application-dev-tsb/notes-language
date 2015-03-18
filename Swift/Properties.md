@@ -43,6 +43,17 @@ class MyOtherClass {
     }
   }
 }
+```
 
+##Type/Class Properties
+```swift
+enum SomeEnumeration {
+    static var storedTypeProperty = "Some value."
+    static var computedTypeProperty: Int {
+        // return an Int value here
+    }
+}
 
+//usage:
+SomeEnumeration.storedTypeProperty
 ```
