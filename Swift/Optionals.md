@@ -14,10 +14,10 @@ let residence = Residence()
 let john = Person()
 john.residence = residence
 
-#force unwrapping: fails when residence is null
+//force unwrapping: fails when residence is null
 let room = john.residence!.numberOfRooms
 
-#optional chaining: gracefully sets the property to nil
+//optional chaining: gracefully sets the property to nil
 let roomOptional = john.residence?.numberOfRooms
 ```
 
