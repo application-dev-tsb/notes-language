@@ -37,7 +37,7 @@ A Reminder for my Future Self on How To Get Things Done. Included in this great 
 
 ### Swift
 * [Data Types](/Swift/DataTypes.md)
-* Functions
+* [Functions] (Swift/Functions.md)
 * [Operators and Operator Functions](/Swift/Operators.md)
 * [Collections](/Swift/Collections.md)
 * Strings and Characters
