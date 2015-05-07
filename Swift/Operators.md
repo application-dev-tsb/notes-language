@@ -64,3 +64,5 @@ m = -m //3 negated
 m = +m //3 does nothing
 println(m) //3
 ```
+
+Source: [Apple Inc.] (https://developer.apple.com/library/ios/documentation/Swift/Conceptual/Swift_Programming_Language/BasicOperators.html#//apple_ref/doc/uid/TP40014097-CH6-ID60)
