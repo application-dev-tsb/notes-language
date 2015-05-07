@@ -1,6 +1,6 @@
 # Operators
 
-## Asignment Operator
+## Asignment
 ```swift
 
 //asignment operator
@@ -19,7 +19,7 @@ var y = myTuple.2
 //NOTE: use _ for things you dont care about
 ```
 
-## Arithmetic Operators
+## Arithmetic
 ```swift
 var sum = 1 + 1
 var concatenatedString = "Test" + "AnotherTest"
@@ -34,4 +34,18 @@ var concatenatedString = "Test" + "AnotherTest"
 
 //0.5 swift's modulo operator can return floating-point result
 8 % 2.5
+```
+
+## Increment/Decrement
+```swift
+var i = 9
+
+//post = 9, since i was returned before incrementing
+let post = i++
+
+//pre = 11, incremented before returning the value
+let pre = ++i
+
+var f = 15.5
+f++ //16.5 increment also works with floating types
 ```
