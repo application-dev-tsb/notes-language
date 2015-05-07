@@ -49,3 +49,18 @@ let pre = ++i
 var f = 15.5
 f++ //16.5 increment also works with floating types
 ```
+
+## Unary Plus/Minus Operator
+```swift
+var n = 3
+
+n = -n //-3 negated
+n = +n //-3 does nothing
+println(n) //-3
+
+var m = -3
+
+m = -m //3 negated
+m = +m //3 does nothing
+println(m) //3
+```
