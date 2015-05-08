@@ -49,6 +49,14 @@ UIntX     | 32 or 64-bit Unsigned Integer
 Float    | 32-bit floating point number
 Double   | 64-bit floating point number
 
+## Type Aliasing
+```swift
+//good for readibility without needing to extend or create another type
+typealias Awesomeness = Int
+
+let me: Awesomeness = 100
+```
+
 
 ## Sources:
 * [Apple Documentation: Data Types](https://developer.apple.com/library/ios/documentation/Swift/Conceptual/Swift_Programming_Language/TheBasics.html)
