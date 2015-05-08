@@ -6,6 +6,27 @@
 var myArray = Array<Int>()
 var myArray = [Int]()
 var myArray = [1, 2, 3, 4, 5]
+var myArray = [Double](count: 10, repeatedValue: 10.5) //initialize an array with repeated values
+
+//common array functions:
+
+//append:
+array.append("A")
+
+//replace:
+var shoppingList = ["0", "1", "2", "3", "4", "5", "6", "7", "8"]
+shoppingList[3...5] = ["X", "X", "X", "X"] //["0", "1", "2", "X", "X", "X", "X", "6", "7", "8"]
+shoppingList[1] = "XXXXX" // ["0", "XXX", "2"....XXXXX]
+
+//add:
+shoppingList += ["X", "Y", "Z"] //["0", "1", "2", "X", "X", "X", "X", "6", "7", "8", "X", "Y", "Z"]
+
+//insert at index: add (not replace)
+shoppingList.insert("INSERTED", atIndex: 1] 
+
+//remove:
+shoppingList.removeAtIndex(1)
+shoppingList.removeLast()
 ```
 
 ## Dictionaries
