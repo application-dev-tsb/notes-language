@@ -59,14 +59,22 @@ let me: Awesomeness = 100
 
 ## Numeric Literals: Decimal, Binary, Hex, and Octal
 ```swift
+//Integers
 let binaryInteger = 0b10001       // 17 in binary notation
 let octalInteger = 0o21           // 17 in octal notation
 let hexadecimalInteger = 0x11
 
-//heres how normal people do it:
-let decimalInteger = 17
-let decimalUsingUnderScores = 17_000_000 //underscores help with readability
+let doubleExponent: Double = 1.25e2 //1.25 x 10^2
+let doubleNegativeExponent: Double = 1.25e-2 //1.25 / 10^2
+let doubleHex: Double = 0xCe2 //16 x 10^2
 
+//heres how sane people write readable numbers:
+let decimalUsingUnderScores = 17_000_000
+
+//Floating Point
+let decimalDouble = 12.1875
+let exponentDouble = 1.21875e1
+let hexadecimalDouble = 0xC.3p0
 ```
 
 ## Sources:
