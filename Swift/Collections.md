@@ -45,6 +45,10 @@ myDict.removeValueForKey(3) //returns the current value before removing
 for (key, val) in myDict {
     println("key: \(key) value: \(val)")
 }
+
+//converting the keys or values into an array
+let keys = [Int](myDict.keys)
+let values = [String](myDict.values)
 ```
 
 ## Sets
