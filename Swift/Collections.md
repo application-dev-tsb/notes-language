@@ -30,6 +30,22 @@ shoppingList.removeLast()
 ```
 
 ## Dictionaries
+```swift
+var myDict: [Int: String] = [1: "A", 2: "B", 3: "C"]
+
+//setting
+myDict[4] = "D"
+myDict.updateValue("XX", forKey: 5) //returns old value
+
+//removing
+myDict[1] = nil
+myDict.removeValueForKey(3) //returns the current value before removing
+
+//iterating
+for (key, val) in myDict {
+    println("key: \(key) value: \(val)")
+}
+```
 
 ## Sets
 Requirement for Set elements: conform to the Hashable (transitively Equatable) protocol.
