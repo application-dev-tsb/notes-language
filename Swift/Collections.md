@@ -32,6 +32,35 @@ shoppingList.removeLast()
 ## Dictionaries
 
 ## Sets
+```swift
+//set initialization
+var mySet: Set<String> = Set<String>()
+var mySet: Set<String> = ["A", "B", "C", "B"] //A,B,C
+var mySet: Set = ["A", "B", "C"] //data type of elements can be infered
+
+//insert
+mySet.insert("A")
+
+//remove
+mySet.remove("A")
+
+//contains
+mySet.contains("A")
+
+//iterating
+for letter in mySet {
+    println("Letter \(letter)")
+}
+
+//operations create new sets:
+var setA: Set = ["A", "B", "C", "D"]
+var setB: Set = ["C", "D", "E", "F"]
+
+setA.union(setB) //ABCDEF
+setA.intersect(setB) //CD
+setA.exclusiveOr(setB) //ABFE
+setA.subtract(setB) //AB
+```
 
 ## Notes on Collections
 - assigning collections to a "var" will make it mutable, and "let" to make it immutable
