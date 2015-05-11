@@ -32,6 +32,7 @@ shoppingList.removeLast()
 ## Dictionaries
 
 ## Sets
+Requirement for Set elements: conform to the Hashable (transitively Equatable) protocol.
 ```swift
 //set initialization
 var mySet: Set<String> = Set<String>()
