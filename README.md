@@ -50,7 +50,7 @@ A Reminder for my Future Self on How To Get Things Done. Included in this great 
 * Classes
 * [Structures](/Swift/Structures.md)
 * [Properties](/Swift/Properties.md)
-* [Flow Controls](/Swift/FlowControls.md)
+* [Control Flow](/Swift/ControlFlow.md)
 * Methods
 * Subscripts
 * Initialization and Deinitialization
