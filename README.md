@@ -58,6 +58,7 @@ A Reminder for my Future Self on How To Get Things Done. Included in this great 
 * Protocols
 * Generics
 * Attributes
+* [Extension](/Swift/Extensions.md)
 
 ### Design Patterns
 * Strategy
