@@ -24,3 +24,11 @@ var myInterpolatedString = "The object description is: \(otherObject)"
 ```
 
 - Strings are value types (passed as copy to parameters - a built-in safety precaution)
+
+## Extended Grapheme Cluster
+Extended grapheme clusters are a flexible way to represent many complex script characters as a single Character value. For example, Hangul syllables from the Korean alphabet can be represented as either a precomposed or decomposed sequence.
+```swift
+var usFlag: Character = "\u{1F1FA}\u{1F1F8}"
+```
+
+More Info: [Extended Grapheme Cluster](https://developer.apple.com/library/ios/documentation/Swift/Conceptual/Swift_Programming_Language/StringsAndCharacters.html#//apple_ref/doc/uid/TP40014097-CH7-ID296)
