@@ -32,3 +32,13 @@ var usFlag: Character = "\u{1F1FA}\u{1F1F8}"
 ```
 
 More Info: [Extended Grapheme Cluster](https://developer.apple.com/library/ios/documentation/Swift/Conceptual/Swift_Programming_Language/StringsAndCharacters.html#//apple_ref/doc/uid/TP40014097-CH7-ID296)
+
+
+## Counting String Characters
+```swift
+var myString = "dasdsadsad"
+println("count is \(count(myString))")
+```
+
+
+
