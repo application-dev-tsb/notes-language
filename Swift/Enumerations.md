@@ -29,3 +29,24 @@ case .D:
         println("D")
 }
 ```
+
+## Associated Values
+You can define Swift enumerations to store associated values of any given type, and the value types can be different for each member of the enumeration if needed. Enumerations similar to these are known as discriminated unions, tagged unions, or variants in other programming languages.
+
+```swift
+enum Barcode {
+    case UPCA(Int, Int, Int, Int)
+    case QRCode(String)
+}
+
+var productBarcode = Barcode.UPCA(1, 1, 2, 3)
+
+switch productBarcode {
+case .UPCA(let numberSystem, let manufacturer, let product, let check):
+    println("UPC-A: \(numberSystem), \(manufacturer), \(product), \(check).")
+case .QRCode(let productCode):
+    println("QR code: \(productCode).")
+}
+```
+
+Reference: [Enumerations, Apple Inc.](https://developer.apple.com/library/ios/documentation/Swift/Conceptual/Swift_Programming_Language/Enumerations.html#//apple_ref/doc/uid/TP40014097-CH12-ID145)
