@@ -89,6 +89,28 @@ if c1 === c2 {
 protocol Equatable {
     func ==(lhs: Self, rhs: Self) -> Bool
 }
+
+//sample:
+class PersonClass {
+    var name = "Test"
+    var age = 1
+}
+
+extension PersonClass: Equatable {}
+
+//weird huh?
+func == (lhs: PersonClass, rhs: PersonClass) -> Bool {
+    return true
+}
+
+var c1 = PersonClass()
+var c2 = PersonClass()
+
+if c1 == c2 {
+    println("Equal")
+} else {
+    println("Not Equal")
+}
 ```
 
 ## Comparable Operator
