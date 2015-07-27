@@ -47,6 +47,14 @@ case .UPCA(let numberSystem, let manufacturer, let product, let check):
 case .QRCode(let productCode):
     println("QR code: \(productCode).")
 }
+
+//alternative syntax for brevity: if you use "let" for all the associated values
+switch productBarcode {
+case let .UPCA(numberSystem, manufacturer, product, check):
+    println("UPC-A: \(numberSystem), \(manufacturer), \(product), \(check).")
+case let .QRCode(productCode):
+    println("QR code: \(productCode).")
+}
 ```
 
 Reference: [Enumerations, Apple Inc.](https://developer.apple.com/library/ios/documentation/Swift/Conceptual/Swift_Programming_Language/Enumerations.html#//apple_ref/doc/uid/TP40014097-CH12-ID145)
