@@ -57,4 +57,25 @@ case let .QRCode(productCode):
 }
 ```
 
+# Raw Values
+Raw values can be strings, characters, or any of the integer or floating-point number types. Each raw value must be unique within its enumeration declaration. When integers are used for raw values, they auto-increment if no value is specified for some of the enumeration members.
+
+```swift
+enum TRaw: Int {
+    case One = 1
+    case Two = 2
+}
+
+if let tRaw = TRaw(rawValue: 1) {
+    switch tRaw {
+    case .One:
+        println("T1")
+    case .Two:
+        println("T2")
+    }
+} else { //Raw value enum initializers are FAILABLE
+    println("nil")
+}
+```
+
 Reference: [Enumerations, Apple Inc.](https://developer.apple.com/library/ios/documentation/Swift/Conceptual/Swift_Programming_Language/Enumerations.html#//apple_ref/doc/uid/TP40014097-CH12-ID145)
