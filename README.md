@@ -46,7 +46,7 @@ A Reminder for my Future Self on How To Get Things Done. Included in this great 
 * [Strings and Characters](/Swift/StringsAndCharacters.md)
 * Tuples
 * [Classes and Structures](/Swift/ClassesAndStructures.md)
-* Classes
+* [Classes](/Swift/Classes.md)
 * [Structures](/Swift/Structures.md)
 * [Enumerations](/Swift/Enumerations.md)
 * [Properties](/Swift/Properties.md)
