@@ -46,9 +46,10 @@ A Reminder for my Future Self on How To Get Things Done. Included in this great 
 * Tuples
 * [Closures](/Swift/Closures.md)
 * [Optionals](/Swift/Optionals.md)
-* Enumerations
+* [Classes and Structures](/Swift/ClassesAndStructures.md)
 * Classes
 * [Structures](/Swift/Structures.md)
+* Enumerations
 * [Properties](/Swift/Properties.md)
 * [Control Flow](/Swift/ControlFlow.md)
 * Methods
