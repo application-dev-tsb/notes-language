@@ -40,5 +40,10 @@ var myString = "dasdsadsad"
 println("count is \(count(myString))")
 ```
 
+## String Mutability
+```swift
+let myString = "immutable" //insert, splice, etc... can no longer be used on the string
+```
+
 
 
