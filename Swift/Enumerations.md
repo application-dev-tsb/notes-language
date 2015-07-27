@@ -15,6 +15,9 @@ var y = Choices.A
 y = .C
 ```
 
+## Notes
+* Enumerations are Value types like [structs](/Structures.md), meaning they are copied when assigned to a variable/constant or when they are passed as parameters to a function
+
 ## Matching Enumeration Values with a Switch Statement
 ```swift
 x = .D
@@ -57,7 +60,7 @@ case let .QRCode(productCode):
 }
 ```
 
-# Raw Values
+## Raw Values
 Raw values can be strings, characters, or any of the integer or floating-point number types. Each raw value must be unique within its enumeration declaration. When integers are used for raw values, they auto-increment if no value is specified for some of the enumeration members.
 
 ```swift
