@@ -65,4 +65,40 @@ m = +m //3 does nothing
 println(m) //3
 ```
 
+## Ternary Conditional Operator
+```swift
+var question = 1 > 2
+var answer = question ? "True" : "False"
+```
+
+## Identity Operator
+```swift
+var c1 = PersonClass()
+var c2 = c1
+
+if c1 === c2 {
+    println("Identical")
+} else {
+    println("Not Identical")
+}
+```
+
+## Equatable Operators
+```swift
+//operands should implement:
+protocol Equatable {
+    func ==(lhs: Self, rhs: Self) -> Bool
+}
+```
+
+## Comparable Operator
+```swift
+//operands should implement:
+protocol Comparable : _Comparable, Equatable {
+    func <=(lhs: Self, rhs: Self) -> Bool
+    func >=(lhs: Self, rhs: Self) -> Bool
+    func >(lhs: Self, rhs: Self) -> Bool
+}
+```
+
 Source: [Apple Inc.] (https://developer.apple.com/library/ios/documentation/Swift/Conceptual/Swift_Programming_Language/BasicOperators.html#//apple_ref/doc/uid/TP40014097-CH6-ID60)
