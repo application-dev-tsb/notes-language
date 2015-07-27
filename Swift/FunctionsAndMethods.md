@@ -9,7 +9,9 @@ func countAPersonsResidence(person:Person, residence: Residence?) -> Int {
 }
 
 //TODO: ignore/variable values/default parameters
-//TODO: curried functions
+//TODO: Curried functions
+//TODO: In-Out parameters
+//TODO: Multiple return values
 ```
 
 Reference: [Functions, Apple Inc.](https://developer.apple.com/library/ios/documentation/Swift/Conceptual/Swift_Programming_Language/Functions.html#//apple_ref/doc/uid/TP40014097-CH10-ID158)
