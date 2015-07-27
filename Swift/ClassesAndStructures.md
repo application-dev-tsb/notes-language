@@ -27,6 +27,7 @@ class VideoMode {
 | Allows Inheritance | YES | NO |
 | Type Casting | YES | NO |
 | Reference | YES |  NO (Values are Copied) |
+| Memberwise Initializers | NO | YES |
 
 
 
