@@ -39,27 +39,24 @@ A Reminder for my Future Self on How To Get Things Done. Included in this great 
 
 ### Swift
 * [Data Types](/Swift/DataTypes.md)
-* [Functions] (Swift/Functions.md)
+* [Control Flow](/Swift/ControlFlow.md)
+* [Functions/Methods/Subscripts] (Swift/Functions.md)
 * [Operators and Operator Functions](/Swift/Operators.md)
 * [Collections](/Swift/Collections.md)
 * [Strings and Characters](/Swift/StringsAndCharacters.md)
 * Tuples
-* [Closures](/Swift/Closures.md)
-* [Optionals](/Swift/Optionals.md)
 * [Classes and Structures](/Swift/ClassesAndStructures.md)
 * Classes
 * [Structures](/Swift/Structures.md)
 * [Enumerations](/Swift/Enumerations.md)
 * [Properties](/Swift/Properties.md)
-* [Control Flow](/Swift/ControlFlow.md)
-* Methods
-* Subscripts
 * Initialization and Deinitialization
-* Extensions
+* [Closures](/Swift/Closures.md)
+* [Optionals](/Swift/Optionals.md)
 * Protocols
+* [Extension](/Swift/Extensions.md)
 * Generics
 * Attributes
-* [Extension](/Swift/Extensions.md)
 
 ### Design Patterns
 * Strategy
