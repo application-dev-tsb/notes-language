@@ -14,3 +14,18 @@ x = .C
 var y = Choices.A
 y = .C
 ```
+
+## Matching Enumeration Values with a Switch Statement
+```swift
+x = .D
+switch x {
+case .A:
+        println("A")
+case .B:
+        println("B")
+case .C:
+        println("C")
+case .D:
+        println("D")
+}
+```
