@@ -61,6 +61,35 @@ func varParam(var p1: Int, p2: Int) {
 }
 ```
 
+## Function Types
+You can use a function type such as (Int, Int) -> Int as a parameter type for another function. This enables you to leave some aspects of a function’s implementation for the function’s caller to provide when the function is called.
+
+You can use a function type as the return type of another function. You do this by writing a complete function type immediately after the return arrow (->) of the returning function.
+```swift
+func simpleFunction() {
+    println("simpleFunction")
+}
+
+//function with no parameter and no return
+var sf: () -> () = simpleFunction
+
+func singleParam(p1: Int) -> Int {
+    println("singleParam:\(p1)")
+    return 1
+}
+
+//function with one param and one return
+var sp: (Int) -> Int = singleParam
+
+//function with function as parameter and return type
+func funcParamExe(withFunction f: (Int)-> Int) -> () -> (){
+    f(100)
+    return sf
+}
+
+funcParamExe(withFunction: sp)
+```
+
 Reference: [Functions, Apple Inc.](https://developer.apple.com/library/ios/documentation/Swift/Conceptual/Swift_Programming_Language/Functions.html#//apple_ref/doc/uid/TP40014097-CH10-ID158)
 
 # Methods
