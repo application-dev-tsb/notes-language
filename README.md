@@ -44,7 +44,7 @@ A Reminder for my Future Self on How To Get Things Done. Included in this great 
 * [Operators and Operator Functions](/Swift/Operators.md)
 * [Collections](/Swift/Collections.md)
 * [Strings and Characters](/Swift/StringsAndCharacters.md)
-* Tuples
+* [Tuples](/Swift/Tuples.md)
 * [Classes and Structures](/Swift/ClassesAndStructures.md)
 * [Classes](/Swift/Classes.md)
 * [Structures](/Swift/Structures.md)
