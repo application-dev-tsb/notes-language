@@ -51,6 +51,16 @@ func sumAll(a1: Int, a2: Double...) -> Double {
 println("sum:\(sumAll(1, 2.0, 3.0, 5.0))") //11.0
 ```
 
+## Constant and Variable Parameters
+Function parameters are constants by default. Trying to change the value of a function parameter from within the body of that function results in a compile-time error. This means that you can’t change the value of a parameter by mistake
+```swift
+func varParam(var p1: Int, p2: Int) {
+    p1 = 3
+    p2 = 3333 //ERROR: by default, parameters are local constants
+    println("p1: \(p1) p2: \(p2)")
+}
+```
+
 Reference: [Functions, Apple Inc.](https://developer.apple.com/library/ios/documentation/Swift/Conceptual/Swift_Programming_Language/Functions.html#//apple_ref/doc/uid/TP40014097-CH10-ID158)
 
 # Methods
