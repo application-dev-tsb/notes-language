@@ -17,6 +17,18 @@ func opFunc(t: String) -> Int? {
 
 var myInt = opFunc("123")
 
-//unwrapping an Optional type
+//unwrapping an Optional type, will crash if no value
 println("int:\(myInt!)")
+```
+
+## Optional Binding
+Optional binding can be used with if and while statements to check for a value inside an optional, and to extract that value into a constant or variable, as part of a single action
+```swift
+var myInt: Int? = opFunc("123")
+
+if var unwrappedInt = myInt {
+    println("int:\(myInt!)")
+} else {
+    println("no value unwrapped")
+}
 ```
