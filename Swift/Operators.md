@@ -110,6 +110,16 @@ if c1 === c2 {
 }
 ```
 
+## Logical Operators
+```swift
+var a = true
+var b = false
+
+println("Logical NOT:\(!a)")
+println("Logical AND:\(a && b)") //short-circuit
+println("Logical OR:\(a || b)") //short-circuit
+```
+
 ## Equatable Operators
 ```swift
 //operands should implement:
