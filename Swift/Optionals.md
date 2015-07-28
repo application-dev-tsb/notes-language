@@ -1,24 +1,21 @@
 # Optionals
-
+You use optionals in situations where a value may be absent. An optional says:
+* There is a value, and it equals x or
+* There isn’t a value at all
 ```swift
-class Person {
-    var residence: Residence?
+//optional variable
+var opInt: Int? = 400
+opInt = nil //Int (without the ?) cannot be assigned to nil
+println("int:\(opInt)")
+
+
+//optional return type
+func opFunc(t: String) -> Int? {
+    return t.toInt();
 }
 
-class Residence {
-    var numberOfRooms = 1
-}
+var myInt = opFunc("123")
 
-let residence = Residence()
-
-let john = Person()
-john.residence = residence
-
-//force unwrapping: fails when residence is null
-let room = john.residence!.numberOfRooms
-
-//optional chaining: gracefully sets the property to nil
-let roomOptional = john.residence?.numberOfRooms
+//unwrapping an Optional type
+println("int:\(myInt!)")
 ```
-
-Optional chaining is a process for querying and calling properties, methods, and subscripts on an optional that might currently be nil. If the optional contains a value, the property, method, or subscript call succeeds; if the optional is nil, the property, method, or subscript call returns nil. Multiple queries can be chained together, and the entire chain fails gracefully if any link in the chain is nil.
