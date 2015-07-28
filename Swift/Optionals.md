@@ -5,10 +5,12 @@ You use optionals in situations where a value may be absent. An optional says:
 ```swift
 //optional variable
 var opInt: Int? = 400
-opInt = nil //Int (without the ?) cannot be assigned to nil
-println("int:\(opInt)")
 
-//optional return type
+//Int (without the ?) cannot be assigned to nil
+//nil is "no value" for optionals
+opInt = nil 
+
+//optional return type for functions
 func opFunc(t: String) -> Int? {
     return t.toInt();
 }
