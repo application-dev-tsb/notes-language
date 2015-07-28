@@ -84,6 +84,20 @@ let result: String = a ?? b
 println("result=\(result)")
 ```
 
+## Range Operator
+```swift
+
+//closed range
+var range = 1...10
+
+//half-open range 1 to 9
+var range = 1..<10
+
+for i in range {
+    println("count:\(i)")
+}
+```
+
 ## Identity Operator
 ```swift
 var c1 = PersonClass()
