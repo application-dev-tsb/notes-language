@@ -71,6 +71,19 @@ var question = 1 > 2
 var answer = question ? "True" : "False"
 ```
 
+## Nil Coalescent Operator
+The nil coalescing operator (a ?? b) unwraps an optional a if it contains a value, or returns a default value b if a is nil. The expression a is always of an optional type. The expression b must match the type that is stored inside a.
+```swift
+var a: String? = "A"
+var b = "B"
+
+//equivalent to:
+//a != nil ? a! : b
+let result: String = a ?? b 
+
+println("result=\(result)")
+```
+
 ## Identity Operator
 ```swift
 var c1 = PersonClass()
