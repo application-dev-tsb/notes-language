@@ -1,6 +1,5 @@
 # Functions
 Functions are self-contained chunks of code that perform a specific task
-
 ```swift
 
 //complete function:
@@ -12,6 +11,26 @@ func countAPersonsResidence(person:Person, residence: Residence?) -> Int {
 //TODO: Curried functions
 //TODO: In-Out parameters
 //TODO: Multiple return values
+```
+
+## External Parameter Names
+Sometimes it’s useful to name each parameter when you call a function, to indicate the purpose of each argument you pass to the function
+```swift
+var a = 1
+var b = 2
+
+func sum(withAddend a1: Int, a2: Int) -> Int {
+    return a1 + a2
+}
+
+//note: if you provide an external parameter name for a parameter, that external name must always be used when you call the function
+println("sum:\(sum(withAddend: a,b))")
+
+//shorthand: external and local parameter name are the same
+func sum(#a1: Int, #a2: Int) -> Int {
+    return a1 + a2
+}
+println("sum:\(sum(a1: a,a2: b))")
 ```
 
 Reference: [Functions, Apple Inc.](https://developer.apple.com/library/ios/documentation/Swift/Conceptual/Swift_Programming_Language/Functions.html#//apple_ref/doc/uid/TP40014097-CH10-ID158)
