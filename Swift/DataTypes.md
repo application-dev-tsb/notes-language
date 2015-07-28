@@ -12,6 +12,12 @@ let myConst: Int = 1
 //error: you cant reasign a constant
 //one of swift's safety feature
 myConst = 2
+
+//declare multiple constants and variables in one line
+var a = 1, b = 2, c = 3
+
+//type annotation
+var a: Int = 1
 ```
 
 ## Type Inference
