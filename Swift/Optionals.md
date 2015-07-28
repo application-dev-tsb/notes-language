@@ -8,7 +8,6 @@ var opInt: Int? = 400
 opInt = nil //Int (without the ?) cannot be assigned to nil
 println("int:\(opInt)")
 
-
 //optional return type
 func opFunc(t: String) -> Int? {
     return t.toInt();
