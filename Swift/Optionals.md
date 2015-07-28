@@ -32,3 +32,28 @@ if var unwrappedInt = myInt {
     println("no value unwrapped")
 }
 ```
+
+## Implicitly Unwrapped Optionals
+Sometimes it is clear from a program’s structure that an optional will always have a value, after that value is first set.
+```swift
+class City {
+    let name: String
+    unowned let country: Country
+    init(name: String, country: Country) {
+        self.name = name
+        self.country = country
+    }
+}
+
+class Country {
+    let name: String
+    let capitalCity: City!
+    init(name: String, capitalName: String) {
+        self.name = name
+        self.capitalCity = City(name: capitalName, country: self)
+    }
+}
+
+//Accessing a no-value object will throw a runtime exception similar to unwrapping an empty optional.
+```
+
