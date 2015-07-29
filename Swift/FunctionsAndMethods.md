@@ -2,13 +2,12 @@
 Functions are self-contained chunks of code that perform a specific task
 ```swift
 
-//complete function:
+//CODE:complete function:
 func countAPersonsResidence(person:Person, residence: Residence?) -> Int {
     return person.residence!.numberOfRooms;
 }
 
-//default parameters
-//default parameter value
+//CODE: default parameter value
 func join(s1: String, s2: String, joiner: String = " ") -> String {
     return s1 + joiner + s2
 }
@@ -20,7 +19,20 @@ var joined = join("Hello", "World") //Hello World
 joined = join("Hello", "World", joiner:"-") //Hello-World
 
 //TODO: Curried functions
-//TODO: In-Out parameters
+
+//CODE: In-Out parameters
+//function type: (inout Int, inout Int) -> ()
+func swapTwoInts(inout i1: Int, inout i2: Int) {
+    var temp = i1
+    i1 = i2
+    i2 = temp
+}
+
+var i1 = 100
+var i2 = 200
+
+swapTwoInts(&i1, &i2) //i1=200, i2=100
+
 //TODO: Multiple return values
 ```
 
