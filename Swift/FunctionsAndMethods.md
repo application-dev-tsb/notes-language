@@ -7,7 +7,18 @@ func countAPersonsResidence(person:Person, residence: Residence?) -> Int {
     return person.residence!.numberOfRooms;
 }
 
-//TODO: ignore/variable values/default parameters
+//default parameters
+//default parameter value
+func join(s1: String, s2: String, joiner: String = " ") -> String {
+    return s1 + joiner + s2
+}
+
+//param "joiner" is optional
+var joined = join("Hello", "World") //Hello World
+
+//providing a "joiner" param requires the use of the explicit external name
+joined = join("Hello", "World", joiner:"-") //Hello-World
+
 //TODO: Curried functions
 //TODO: In-Out parameters
 //TODO: Multiple return values
