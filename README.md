@@ -38,7 +38,7 @@ A Reminder for my Future Self on How To Get Things Done. Included in this great 
 [ObjectiveC_NativeDataTypes]: ObjectiveC/NativeDataTypes.md "ObjectiveC Native Data Types"
 
 ### Swift
-* [Data Types](/Swift/DataTypes.md)
+* [Basics](/Swift/Basics.md)
 * [Control Flow](/Swift/ControlFlow.md)
 * [Functions/Methods/Subscripts] (Swift/FunctionsAndMethods.md)
 * [Operators and Operator Functions](/Swift/Operators.md)
