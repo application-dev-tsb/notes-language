@@ -1,4 +1,4 @@
-# Swift Data Types
+# Swift Basics
 
 ## Constants and Variables
 
