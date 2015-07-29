@@ -31,7 +31,33 @@ for n in 1...5 {
 ```
 ## Switch 
 ```swift
-//TODO: insert code here
+//simple switch with range of values
+var count = 1000
+switch count {
+case Int.min..<0:
+    println("wooops")
+case 0:
+    println("boooo")
+case 1...10:
+    println("nice...")
+case 10...100:
+    println("so much...")
+default:
+    println("much wow doge...")
+}
+
+//switching to match multiple values
+var point = (1, 0)
+switch point {
+case (0, 0):
+    println("origin")
+case (0, _):
+    println("y axis")
+case (_, 0):
+    println("x axis")
+default:
+    println("not cool")
+}
 ```
 
 ## Control Transfer
