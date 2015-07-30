@@ -71,6 +71,38 @@ case (let x, 0):
 case let (x,y):
     println("on x:\(x) y:\(y)")
 }
+
+//value bindings and where statements
+//for additional matching
+var point: (Int, Int) = (2,-3)
+switch point {
+case (0, 0):
+    println("origin")
+case (0, let y):
+    println("y axis:\(y)")
+case (let x, 0):
+    println("x axis:\(x)")
+case let (x,y) where x == y:
+    println("x==y")
+case let (x,y) where x == -y:
+    println("x is the opposite of y")
+case let (x,y):
+    println("on x:\(x) y:\(y)")
+}
+
+//switch using optionals
+//optionals is also an enum
+//with .Somo if it has value
+var myInt: Int? = 1
+
+switch myInt {
+case .Some(1):
+    println("has value one")
+case .Some(2):
+    println("has value 2")
+default:
+    println("no value")
+}
 ```
 
 ## Control Transfer
