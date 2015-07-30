@@ -34,9 +34,18 @@ do {
 
 ## Conditional Statements
 ```swift
-//TODO: insert code here
+if x > 2 {
+    println("x is greater than 2")
+} else if x > 1 {
+    println("x is greater than 1")
+} else {
+    println("IDK what x is")
+}
 ```
 ## Switch 
+A switch statement considers a value and compares it against several possible matching patterns. It then executes an appropriate block of code, based on the first pattern that matches successfully. A switch statement provides an alternative to the if statement for responding to multiple potential states
+
+In contrast with switch statements in C and Objective-C, switch statements in Swift do not fall through the bottom of each case and into the next one by default. Instead, the entire switch statement finishes its execution as soon as the first matching switch case is completed, without requiring an explicit break statement. This makes the switch statement safer and easier to use than in C, and avoids executing more than one switch case by mistake
 ```swift
 //simple switch with range of values
 var count = 1000
