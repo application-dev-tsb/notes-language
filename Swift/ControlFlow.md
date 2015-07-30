@@ -17,12 +17,19 @@ for n in 1...5 {
 
 ## While Loops
 ```swift
-//TODO: insert code here
-```
+var x = 0
 
-## Do While
-```swift
-//TODO: insert code here
+//while: evaluate first before executing code block
+while x < 10 {
+    println("running...")
+    x++
+}
+
+//do-while: execute first
+do {
+    println("running...")
+    x++
+} while x < 20
 ```
 
 ## Conditional Statements
