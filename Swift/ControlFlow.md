@@ -122,10 +122,27 @@ default:
 ```
 
 ## Control Transfer
-* continue
-* break
-* fallthrough
-* return
+### continue
+### break
+### fallthrough
+The fallthrough keyword does not check the case conditions for the switch case that it causes execution to fall into. The fallthrough keyword simply causes code execution to move directly to the statements inside the next case (or default case) block, as in C’s standard switch statement behavior.
+```swift
+switch x {
+case 1...100:
+    println("x is within 1 to 100") //executed
+    fallthrough
+case 101...1_000:
+    println("x is within 1 to 1,000") //executed
+    fallthrough
+case 1_001...10_000:
+    println("x is within 1 to 10,000") //executed
+    fallthrough
+default:
+    println("IDK what x is") //executed
+}
+```
+
+### return
 
 ## Labeled Statements
 ```swift
