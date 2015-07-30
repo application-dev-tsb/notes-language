@@ -58,6 +58,19 @@ case (_, 0):
 default:
     println("not cool")
 }
+
+//value bindings
+var point: (Int, Int) = (1,2)
+switch point {
+case (0, 0):
+    println("origin")
+case (0, let y):
+    println("y axis:\(y)")
+case (let x, 0):
+    println("x axis:\(x)")
+case let (x,y):
+    println("on x:\(x) y:\(y)")
+}
 ```
 
 ## Control Transfer
