@@ -123,7 +123,15 @@ default:
 
 ## Control Transfer
 ### continue
+```swift
+//TODO: write code here
+```
+
 ### break
+```swift
+//TODO: write code here
+```
+
 ### fallthrough
 The fallthrough keyword does not check the case conditions for the switch case that it causes execution to fall into. The fallthrough keyword simply causes code execution to move directly to the statements inside the next case (or default case) block, as in C’s standard switch statement behavior.
 ```swift
@@ -143,10 +151,30 @@ default:
 ```
 
 ### return
+```swift
+//TODO: write code here
+```
 
 ## Labeled Statements
+You can nest loops and switch statements inside other loops and switch statements in Swift to create complex control flow structures. However, loops and switch statements can both use the break statement to end their execution prematurely. Therefore, it is sometimes useful to be explicit about which loop or switch statement you want a break statement to terminate
 ```swift
-//TODO: insert code here
+class Decider {
+    func decide(number: Int = 1) -> Bool {
+        return false
+    }
+}
+
+var decider = Decider()
+
+mainLoop: while decider.decide() {
+    innerLoop: while decider.decide() {
+        if decider.decide(number: 100) {
+            break mainLoop
+        }
+        continue mainLoop
+    }
+    break
+}
 ```
 
 Reference: [Control Flow, Apple Inc.](https://developer.apple.com/library/ios/documentation/Swift/Conceptual/Swift_Programming_Language/ControlFlow.html#//apple_ref/doc/uid/TP40014097-CH9-ID120)
