@@ -29,7 +29,26 @@ class MyClass {
 
 ```
 
-##Property Observers
+## Lazy Stored Properties
+```swift
+class LazyObject {
+    init() {
+        println("Init called")
+    }
+}
+
+struct LazyClass {
+    //lazy var should always be a variable
+    //because constants need to have a value
+    //before init completes
+    lazy var lazyVar = LazyObject()
+}
+
+var l = LazyClass()
+l.lazyVar //LazyObject initialize at this point only
+```
+
+## Property Observers
 gets called before and after a property is set
 ```swift
 class MyOtherClass {
