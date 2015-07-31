@@ -57,3 +57,20 @@ enum SomeEnumeration {
 //usage:
 SomeEnumeration.storedTypeProperty
 ```
+
+## Stored Properties of Constant Structure Instances
+```swift
+struct TestStruct {
+    var x = 1
+}
+
+class TestClass {
+    var x = 1
+}
+
+let ts = TestStruct(x: 2)
+let tc = TestClass()
+
+tc.x = 2
+ts.x = 2 //ERROR: properties of constant structs cannot be modified
+```
