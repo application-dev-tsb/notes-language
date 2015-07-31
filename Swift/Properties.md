@@ -49,10 +49,11 @@ l.lazyVar //LazyObject initialize at this point only
 ```
 
 ## Property Observers
-gets called before and after a property is set
+Property observers observe and respond to changes in a property’s value. Property observers are called every time a property’s value is set, even if the new value is the same as the property’s current value
 ```swift
 class MyOtherClass {
 
+  //works only for STORED properties
   var myVar: Int = 1 {
     willSet {
       //use "newValue"
