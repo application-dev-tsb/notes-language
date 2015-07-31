@@ -117,6 +117,48 @@ Reference: [Functions, Apple Inc.](https://developer.apple.com/library/ios/docum
 
 # Methods
 Methods are functions that are associated with a particular type
+```swift
+class Point {
+    
+    var x = 0
+    var y = 0
+    
+    func moveByX(x: Int, y: Int) {
+        self.x = x
+        self.y = y
+    }
+}
+
+struct SPoint {
+    
+    var x = 0
+    var y = 0
+    
+    //struct methods cannot modify self by default
+    mutating func moveByX(x: Int, y: Int) {
+        self.x = x
+        self.y = y
+    }
+}
+
+enum Switch {
+    case On, Off
+    
+    //you can reassing self for value types
+    mutating func toggle() {
+        switch self {
+        case On:
+            self = Off
+        case Off:
+            self = On
+        }
+    }
+}
+
+var s = Switch.On
+s.toggle()
+println("Switch:\(s == Switch.Off)") //Switch:true
+```
 
 Reference: [Methods, Apple Inc.](https://developer.apple.com/library/ios/documentation/Swift/Conceptual/Swift_Programming_Language/Methods.html#//apple_ref/doc/uid/TP40014097-CH15-ID234)
 
