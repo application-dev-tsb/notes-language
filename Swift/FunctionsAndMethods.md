@@ -178,5 +178,37 @@ subscript(index: Int) -> Int {
         // perform a suitable setting action here
     }
 }
+
+//subscript overloading
+class Awesomeness {
+    private var contents: [String: String] = [:]
+    
+    subscript(index: String) -> String {
+        get {
+            return contents[index]!
+        }
+        set {
+            contents[index] = newValue
+        }
+        
+    }
+    
+    subscript(index: String, level: Int) -> String {
+        get {
+            return "\(contents[index]!) - \(level)"
+        }
+        set {
+            contents[index] = newValue
+        }
+        
+    }
+}
+
+var a = Awesomeness()
+
+a["a", 1] = "AWWWW"
+
+println(a["a", 1]) //AWWWW - 1
+println(a["a"]) //AWWWW
 ```
 Reference: [Subscripts, Apple Inc.](https://developer.apple.com/library/ios/documentation/Swift/Conceptual/Swift_Programming_Language/Subscripts.html#//apple_ref/doc/uid/TP40014097-CH16-ID305)
