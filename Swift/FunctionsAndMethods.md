@@ -160,6 +160,26 @@ s.toggle()
 println("Switch:\(s == Switch.Off)") //Switch:true
 ```
 
+### Default External Name Behavior for Methods
+
+```swift
+class MyClass {
+    //external name = test(_:param2:) 
+    func test(param1: Int, param2: Int) {
+    }
+}
+
+func test(param1: Int, param2: Int) {
+}
+
+var x = MyClass()
+//the local name is the default external name 
+//for methods, you can opt out of this behavior
+//by declaring it as "_"
+x.test(1, param2: 2) 
+test(1, 2);
+```
+
 Reference: [Methods, Apple Inc.](https://developer.apple.com/library/ios/documentation/Swift/Conceptual/Swift_Programming_Language/Methods.html#//apple_ref/doc/uid/TP40014097-CH15-ID234)
 
 ```swift
