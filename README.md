@@ -55,7 +55,7 @@ A Reminder for my Future Self on How To Get Things Done. Included in this great 
 * [Optionals](/Swift/Optionals.md)
 * Protocols
 * [Extension](/Swift/Extensions.md)
-* Generics
+* [Generics](/Swift/Generics.md)
 * Access Control
 * Attributes
 
