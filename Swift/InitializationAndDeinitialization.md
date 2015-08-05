@@ -194,6 +194,24 @@ enum TemperatureUnit: Character {
 
 var f = TemperatureUnit(rawValue: "F") //Fahrenheit
 var x = TemperatureUnit(rawValue: "X") //nil
+
+//class failable init
+class Product {
+    
+    let name: String
+    
+    init?(name: String) {
+        self.name = name
+        //the difference between value types
+        //and reference types: 
+        //properties should be valid before 
+        //returning nil, THIS IS SOMEHOW COUNTERINTUITIVE
+        if name.isEmpty { return nil }
+    }
+}
+
+var nilProduct = Product(name: "") //nil
+var product = Product(name: "Shoe") //Shoe
 ```
 
 Reference: [Apple Inc., Initialization](https://developer.apple.com/library/ios/documentation/Swift/Conceptual/Swift_Programming_Language/Initialization.html#//apple_ref/doc/uid/TP40014097-CH18-ID203)
