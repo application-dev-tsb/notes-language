@@ -32,8 +32,20 @@ struct Fahrenheit {
         self.temperature = temperature
     }
     
+    //overloaded initializer with different method name
     init(fromKelvin kelvin: Double) {
         temperature = (kelvin * 9 / 5) - 459.67
+    }
+    
+    init(fromCelsius celsius: Double) {
+        temperature = ......
+    }
+    
+    //initializer delegation
+    init(multipliedBy multiplier: Int, temperature: Double) {
+        self.init(temperature: temperature * Double(multiplier))
+        //init should be called BEFORE any call to self
+        self.temperature = 100.0
     }
 }
 
