@@ -185,6 +185,15 @@ let nilly = Animal(species: "")
 if nilly == nil {
     println("failed to initialize")
 }
+
+//raw value enums have an automatic failable initializer
+enum TemperatureUnit: Character {
+    
+    case Celsius = "C", Kelvin = "K", Fahrenheit = "F"
+}
+
+var f = TemperatureUnit(rawValue: "F") //Fahrenheit
+var x = TemperatureUnit(rawValue: "X") //nil
 ```
 
 Reference: [Apple Inc., Initialization](https://developer.apple.com/library/ios/documentation/Swift/Conceptual/Swift_Programming_Language/Initialization.html#//apple_ref/doc/uid/TP40014097-CH18-ID203)
