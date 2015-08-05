@@ -74,18 +74,40 @@ Designated Initializers Completely Initializes a Class:
 - A convenience initializer must call another initializer from the same class
 - A convenience initializer must ultimately call a designated initializer
 ```swift
-class Vehicle {
+class Transport {
+    
+    var name = "Name"
+    
+}
+
+class Vehicle: Transport {
     
     var numberOfWheels: Int
     var isAwesome: Bool
     
     init(numberOfWheels: Int, andAwesome isAwesome: Bool) {
-        self.numberOfWheels = numberOfWheels
+        self.numberOfWheels = 10
+        self.isAwesome = true
+    }
+    
+    //even the default initializer needs an override
+    convenience override init() {
+        self.init(numberOfWheels: 11, andAwesome: true)
+    }
+}
+
+class Car: Vehicle {
+    
+    override init(numberOfWheels: Int, andAwesome isAwesome: Bool) {
+        super.init(numberOfWheels: numberOfWheels, andAwesome: isAwesome)
+        self.numberOfWheels = 5
         self.isAwesome = false
     }
     
+    //convenience initializers are not inherited
     convenience init() {
-        self.init(numberOfWheels: 10, andAwesome: true)
+        self.init(numberOfWheels: 1, andAwesome: false)
+        self.numberOfWheels = 111
     }
 }
 ```
