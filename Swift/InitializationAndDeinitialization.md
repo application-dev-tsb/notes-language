@@ -163,6 +163,29 @@ var s2 = ShoppingListItem(name: "Eggs")
 var s3 = ShoppingListItem(name: "Bacon", quantity: 6)
 ```
 
+## Failable Initializer
+Initialization can fail. This failure might be triggered by invalid initialization parameter values, the absence of a required external resource, or some other condition that prevents initialization from succeeding
+```swift
+struct Animal {
+    
+    let species: String
+    
+    init?(species: String) {
+        if species.isEmpty { return nil }
+        self.species = species
+    }
+}
+
+let piggy = Animal(species: "Piggy Piggy")
+if let animal = piggy {
+    print("created animal: \(animal.species)")
+}
+
+let nilly = Animal(species: "")
+if nilly == nil {
+    println("failed to initialize")
+}
+```
 
 Reference: [Apple Inc., Initialization](https://developer.apple.com/library/ios/documentation/Swift/Conceptual/Swift_Programming_Language/Initialization.html#//apple_ref/doc/uid/TP40014097-CH18-ID203)
 
