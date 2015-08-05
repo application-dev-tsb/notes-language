@@ -262,3 +262,39 @@ struct Checkerboard {
 Reference: [Apple Inc., Initialization](https://developer.apple.com/library/ios/documentation/Swift/Conceptual/Swift_Programming_Language/Initialization.html#//apple_ref/doc/uid/TP40014097-CH18-ID203)
 
 # Deinitialization
+A deinitializer is called immediately before a class instance is deallocated
+```swift
+struct Bank {
+    
+    static var coinsInBank = 10_000
+    
+    static func vendCoins(var numberOfCoinsToVend: Int) -> Int {
+        numberOfCoinsToVend = min(numberOfCoinsToVend, coinsInBank)
+        coinsInBank -= numberOfCoinsToVend
+        return numberOfCoinsToVend
+    }
+    
+    static func receiveCoins(coins: Int) {
+        coinsInBank += coins
+    }
+}
+
+class Player {
+    
+    var coinsInPurse: Int
+    
+    init(coins: Int) {
+        coinsInPurse = Bank.vendCoins(coins)
+    }
+    
+    deinit {
+        Bank.receiveCoins(coinsInPurse)
+    }
+}
+
+var player: Player? = Player(coins: 20_000)
+
+println("Coins in Bank:\(Bank.coinsInBank)") //0
+player = nil
+println("Coins in Bank:\(Bank.coinsInBank)") //10,000
+```
