@@ -50,7 +50,7 @@ A Reminder for my Future Self on How To Get Things Done. Included in this great 
 * [Structures](/Swift/Structures.md)
 * [Enumerations](/Swift/Enumerations.md)
 * [Properties](/Swift/Properties.md)
-* Initialization and Deinitialization
+* [Initialization and Deinitialization](/Swift/InitializationAndDeinitialization.md)
 * [Closures](/Swift/Closures.md)
 * [Optionals](/Swift/Optionals.md)
 * Protocols
