@@ -208,6 +208,10 @@ class Product {
         //returning nil, THIS IS SOMEHOW COUNTERINTUITIVE
         if name.isEmpty { return nil }
     }
+    
+    //additional note:
+    //failable init can be overriden by a non-failable init
+    //the reverse is impossible
 }
 
 var nilProduct = Product(name: "") //nil
