@@ -223,6 +223,27 @@ var nilProduct = Product(name: "") //nil
 var product = Product(name: "Shoe") //Shoe
 ```
 
+## Required Initializer
+Write the required modifier before the definition of a class initializer to indicate that every subclass of the class must implement that initializer
+```swift
+class SomeClass {
+    
+    required init() {}
+}
+
+class SomeSubclass: SomeClass {
+    
+    //technically: you dont need to explicitely write a definition
+    //since init() was already inherited
+    required init() {
+        super.init()
+    }
+
+}
+
+var some = SomeSubclass()
+```
+
 Reference: [Apple Inc., Initialization](https://developer.apple.com/library/ios/documentation/Swift/Conceptual/Swift_Programming_Language/Initialization.html#//apple_ref/doc/uid/TP40014097-CH18-ID203)
 
 # Deinitialization
