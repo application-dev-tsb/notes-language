@@ -244,6 +244,21 @@ class SomeSubclass: SomeClass {
 var some = SomeSubclass()
 ```
 
+## Setting a Default Property Value with a Closure or Function
+```swift
+struct Checkerboard {
+    
+    let boardColors: [Bool] = {
+        var temp = [Bool]()
+
+        //do something complicated here...
+        
+        return temp
+        }()
+    
+}
+```
+
 Reference: [Apple Inc., Initialization](https://developer.apple.com/library/ios/documentation/Swift/Conceptual/Swift_Programming_Language/Initialization.html#//apple_ref/doc/uid/TP40014097-CH18-ID203)
 
 # Deinitialization
