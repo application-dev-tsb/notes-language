@@ -209,9 +209,14 @@ class Product {
         if name.isEmpty { return nil }
     }
     
-    //additional note:
+    //additional note 1:
     //failable init can be overriden by a non-failable init
     //the reverse is impossible
+    
+    //additional note 2:
+    //you can use init! in place of init?
+    //the only difference is that if you delegate 
+    //init! from init, it will trigger an assertion
 }
 
 var nilProduct = Product(name: "") //nil
