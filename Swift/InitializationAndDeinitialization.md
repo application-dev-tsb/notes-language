@@ -116,26 +116,51 @@ class Car: Vehicle {
 Assuming that you provide default values for any new properties you introduce in a subclass, the following two rules apply:
 
 - Rule 1: If your subclass doesn’t define any designated initializers, it automatically inherits all of its superclass designated initializers.
-```swift
-class Lambo: Car {
-    var leftYouInTheDust = true
-}
-
-var lambo = Lambo(numberOfWheels: 4, andAwesome: true)
-```
-
 - Rule 2: If your subclass provides an implementation of all of its superclass designated initializers—either by inheriting them as per rule 1, or by providing a custom implementation as part of its definition—then it automatically inherits all of the superclass convenience initializers.
 ```swift
-class Ferrari: Car {
-    var test: Int
+class Food {
     
-    override init(numberOfWheels: Int, andAwesome isAwesome: Bool) {
-        test = 2
-        super.init(numberOfWheels: numberOfWheels, andAwesome: true)
+    var name: String
+    
+    init(name: String) {
+        self.name = name
     }
-        
+    
+    convenience init() {
+        self.init(name: "Unnamed")
+    }
 }
-var ferrari = Ferrari()
+
+var f1 = Food() //convenience
+var f2 = Food(name: "Burger") //designated
+
+class RecipeIngredient: Food {
+    
+    var quantity: Int
+    
+    init(name: String, quantity: Int) {
+        self.quantity = quantity
+        super.init(name: name)
+    }
+    
+    override convenience init(name: String) {
+        self.init(name: name, quantity: 1)
+    }
+}
+
+var r1 = RecipeIngredient() //inherited: Rule#2
+var r2 = RecipeIngredient(name: "Pasta") //convenience
+var r3 = RecipeIngredient(name: "Pasta", quantity: 2) //designated
+
+class ShoppingListItem: RecipeIngredient {
+    
+    var purchased = false
+}
+
+//inherited: Rule#1
+var s1 = ShoppingListItem()
+var s2 = ShoppingListItem(name: "Eggs")
+var s3 = ShoppingListItem(name: "Bacon", quantity: 6)
 ```
 
 
