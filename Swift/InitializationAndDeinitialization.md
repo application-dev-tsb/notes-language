@@ -112,6 +112,32 @@ class Car: Vehicle {
 }
 ```
 
+## Automatic Initializer Inheritance
+Assuming that you provide default values for any new properties you introduce in a subclass, the following two rules apply:
+
+- Rule 1: If your subclass doesn’t define any designated initializers, it automatically inherits all of its superclass designated initializers.
+```swift
+class Lambo: Car {
+    var leftYouInTheDust = true
+}
+
+var lambo = Lambo(numberOfWheels: 4, andAwesome: true)
+```
+
+- Rule 2: If your subclass provides an implementation of all of its superclass designated initializers—either by inheriting them as per rule 1, or by providing a custom implementation as part of its definition—then it automatically inherits all of the superclass convenience initializers.
+```swift
+class Ferrari: Car {
+    var test: Int
+    
+    override init(numberOfWheels: Int, andAwesome isAwesome: Bool) {
+        test = 2
+        super.init(numberOfWheels: numberOfWheels, andAwesome: true)
+    }
+        
+}
+var ferrari = Ferrari()
+```
+
 
 Reference: [Apple Inc., Initialization](https://developer.apple.com/library/ios/documentation/Swift/Conceptual/Swift_Programming_Language/Initialization.html#//apple_ref/doc/uid/TP40014097-CH18-ID203)
 
