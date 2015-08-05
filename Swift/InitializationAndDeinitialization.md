@@ -53,6 +53,19 @@ struct Fahrenheit {
 //are set to their allowed values before init ends
 var f = Fahrenheit(temperature: 20)
 f = Fahrenheit(fromKelvin: 2000)
+
+//constants can only be initialize ONCE
+//it follows that constants can only be initialize 
+//in the declaring class
+class Vehicle {
+    
+    let numberOfWheels: Int
+    
+    init() {
+        numberOfWheels = 0
+        numberOfWheels = 20 //ERROR
+    }
+}
 ```
 
 Reference: [Apple Inc., Initialization](https://developer.apple.com/library/ios/documentation/Swift/Conceptual/Swift_Programming_Language/Initialization.html#//apple_ref/doc/uid/TP40014097-CH18-ID203)
