@@ -1,7 +1,7 @@
 # Initialization
 nitialization is the process of preparing an instance of a class, structure, or enumeration for use. This process involves setting an initial value for each stored property on that instance and performing any other setup or initialization that is required before the new instance is ready for use
 ```swift
-//default initializer for structs: property-wise initializer
+//default initializer for structs: MEMBER-WISE initializer
 struct Fahrenheit {
     var temperature: Double
 }
@@ -67,6 +67,29 @@ class Vehicle {
     }
 }
 ```
+
+## Convenience Initializer (Class-ONLY) and Designated Initializer
+Designated Initializers Completely Initializes a Class:
+- A designated initializer must call a designated initializer from its immediate superclass
+- A convenience initializer must call another initializer from the same class
+- A convenience initializer must ultimately call a designated initializer
+```swift
+class Vehicle {
+    
+    var numberOfWheels: Int
+    var isAwesome: Bool
+    
+    init(numberOfWheels: Int, andAwesome isAwesome: Bool) {
+        self.numberOfWheels = numberOfWheels
+        self.isAwesome = false
+    }
+    
+    convenience init() {
+        self.init(numberOfWheels: 10, andAwesome: true)
+    }
+}
+```
+
 
 Reference: [Apple Inc., Initialization](https://developer.apple.com/library/ios/documentation/Swift/Conceptual/Swift_Programming_Language/Initialization.html#//apple_ref/doc/uid/TP40014097-CH18-ID203)
 
