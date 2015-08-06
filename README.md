@@ -51,11 +51,14 @@ A Reminder for my Future Self on How To Get Things Done. Included in this great 
 * [Enumerations](/Swift/Enumerations.md)
 * [Properties](/Swift/Properties.md)
 * [Initialization and Deinitialization](/Swift/InitializationAndDeinitialization.md)
+* Automatic Reference Counting
 * [Closures](/Swift/Closures.md)
 * [Optionals](/Swift/Optionals.md)
 * [Protocols](/Swift/Protocols.md)
 * [Extension](/Swift/Extensions.md)
 * [Generics](/Swift/Generics.md)
+* Type Casting
+* Error Handling
 * Access Control
 * Attributes
 
