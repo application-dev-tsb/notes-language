@@ -42,6 +42,8 @@ A Reminder for my Future Self on How To Get Things Done. Included in this great 
 * [Control Flow](/Swift/ControlFlow.md)
 * [Functions/Methods/Subscripts] (Swift/FunctionsAndMethods.md)
 * [Operators and Operator Functions](/Swift/Operators.md)
+* [Closures](/Swift/Closures.md)
+* [Optionals](/Swift/Optionals.md)
 * [Collections](/Swift/Collections.md)
 * [Strings and Characters](/Swift/StringsAndCharacters.md)
 * [Tuples](/Swift/Tuples.md)
@@ -52,8 +54,6 @@ A Reminder for my Future Self on How To Get Things Done. Included in this great 
 * [Properties](/Swift/Properties.md)
 * [Initialization and Deinitialization](/Swift/InitializationAndDeinitialization.md)
 * Automatic Reference Counting
-* [Closures](/Swift/Closures.md)
-* [Optionals](/Swift/Optionals.md)
 * [Protocols](/Swift/Protocols.md)
 * [Extension](/Swift/Extensions.md)
 * [Generics](/Swift/Generics.md)
