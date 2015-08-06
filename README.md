@@ -4,7 +4,7 @@ A Reminder for my Future Self on How To Get Things Done. Included in this great 
 #Table Of Contents
 
 # Java
-* [Native Data Types][Java_NativeDataTypes]
+* [Native Data Types](/Java/NativeDataTypes.md)
 * Important Objects
 * Methods
 * Data Types
@@ -16,11 +16,12 @@ A Reminder for my Future Self on How To Get Things Done. Included in this great 
 * Strings
 * Date and Time
 * Regular Expressions
-* [Lambda/Closures](/Java/Lambda.md)
-* Stream API
 * [Optionals](http://www.oracle.com/technetwork/articles/java/java8-optional-2175753.html)
 * [Weak References](https://docs.oracle.com/javase/7/docs/api/java/lang/ref/WeakReference.html)
-[Java_NativeDataTypes]: Java/NativeDataTypes.md "Java Native Data Types"
+
+###### Java 8
+* [Lambda/Closures](/Java/Lambda.md)
+* Stream API
 
 # Javascript
 
