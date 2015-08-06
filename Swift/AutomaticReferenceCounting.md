@@ -56,5 +56,5 @@ unowned var reference3: Person = reference1!
 
 reference1 = nil
 
-println("Reference 1:\(reference2)") //ERROR
+println("Unonwned Reference:\(reference2)") //ERROR
 ```
