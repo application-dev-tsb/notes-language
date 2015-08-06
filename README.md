@@ -53,7 +53,7 @@ A Reminder for my Future Self on How To Get Things Done. Included in this great 
 * [Initialization and Deinitialization](/Swift/InitializationAndDeinitialization.md)
 * [Closures](/Swift/Closures.md)
 * [Optionals](/Swift/Optionals.md)
-* Protocols
+* [Protocols](/Swift/Protocols.md)
 * [Extension](/Swift/Extensions.md)
 * [Generics](/Swift/Generics.md)
 * Access Control
