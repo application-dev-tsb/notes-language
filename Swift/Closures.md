@@ -17,7 +17,7 @@
 
 //this function accepts a closure that has two string params
 //and returns a string
-func runClosure(myClosure:(String,String->String)) {
+func runClosure(myClosure:(String, String) -> String) {
   var myString = myClosure("Test","Test2")
 }
 
@@ -55,4 +55,9 @@ var closureAsVar:((String,String)->String) = { (p1,p2) in
 { "test\($0) \($1)" }
 ```
 
-### Trailing Closure
+### Trailing Params is Closure
+```swift
+
+x.perform { a + b }
+```
+
