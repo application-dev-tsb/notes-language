@@ -3,7 +3,7 @@ A Reminder for my Future Self on How To Get Things Done. Included in this great 
 
 #Table Of Contents
 
-### Java
+# Java
 * [Native Data Types][Java_NativeDataTypes]
 * Important Objects
 * Methods
@@ -22,9 +22,9 @@ A Reminder for my Future Self on How To Get Things Done. Included in this great 
 * [Weak References](https://docs.oracle.com/javase/7/docs/api/java/lang/ref/WeakReference.html)
 [Java_NativeDataTypes]: Java/NativeDataTypes.md "Java Native Data Types"
 
-### Javascript
+# Javascript
 
-### Objective C
+# Objective C
 * [Native Data Types][ObjectiveC_NativeDataTypes]
 * C Functions
 * Structs
@@ -37,7 +37,7 @@ A Reminder for my Future Self on How To Get Things Done. Included in this great 
 * Instance Variables
 [ObjectiveC_NativeDataTypes]: ObjectiveC/NativeDataTypes.md "ObjectiveC Native Data Types"
 
-### Swift
+# Swift
 * [Basics](/Swift/Basics.md)
 * [Control Flow](/Swift/ControlFlow.md)
 * [Functions/Methods/Subscripts] (Swift/FunctionsAndMethods.md)
@@ -58,9 +58,10 @@ A Reminder for my Future Self on How To Get Things Done. Included in this great 
 * [Extension](/Swift/Extensions.md)
 * [Generics](/Swift/Generics.md)
 * [Type Casting](/Swift/TypeCasting.md)
-* Error Handling
 * Access Control
-* Attributes
+
+## Swift 2:
+* [Error Handling](https://developer.apple.com/library/prerelease/ios/documentation/Swift/Conceptual/Swift_Programming_Language/ErrorHandling.html#//apple_ref/doc/uid/TP40014097-CH42-ID508)
 
 ### Design Patterns
 * Strategy
