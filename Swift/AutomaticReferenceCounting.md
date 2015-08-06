@@ -2,11 +2,14 @@
 Swift uses Automatic Reference Counting (ARC) to track and manage your app’s memory usage
 ```swift
 class Person {
+
     let name: String
+    
     init(name: String) {
         self.name = name
         println("\(name) is being initialized")
     }
+    
     deinit {
         println("\(name) is being deinitialized")
     }
