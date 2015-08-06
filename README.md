@@ -60,7 +60,7 @@ A Reminder for my Future Self on How To Get Things Done. Included in this great 
 * [Type Casting](/Swift/TypeCasting.md)
 * Access Control
 
-## Swift 2:
+####### Swift 2:
 * [Error Handling](https://developer.apple.com/library/prerelease/ios/documentation/Swift/Conceptual/Swift_Programming_Language/ErrorHandling.html#//apple_ref/doc/uid/TP40014097-CH42-ID508)
 
 ### Design Patterns
