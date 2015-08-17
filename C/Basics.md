@@ -1,9 +1,10 @@
 # C Basics
 
-Steps to Run a C Program:
-* Code (hello.c)
+## Steps to Run a C Program:
+* Code
 ```c
 /*
+ * filename: hello.c
  * every C file should start with a comment explaining
  * what the code this
  */
