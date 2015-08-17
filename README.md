@@ -27,12 +27,15 @@ A Reminder for my Future Self on How To Get Things Done. Included in this great 
 
 # C
 * [Basics](/C/Basics.md)
-* Data Types
 * [Control Flow](/C/ControlFlow.md)
 * [Operators](/C/Operators.md)
-* [Memory Pointers](/C/MemoryPointers.md)
 * Functions
+* Primitive Data Types
 * Structs
+* Enumerations
+* Unions
+* Arrays
+* [Memory Pointers](/C/MemoryPointers.md)
 
 # Objective C
 * Classes
