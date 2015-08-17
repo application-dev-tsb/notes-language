@@ -18,6 +18,23 @@ int main()
 ```
 * Compile
 ```
-gcc hello.c -o hello
+> gcc hello.c -o hello
 ```
 * Run
+```
+> ./hello
+
+//combine compile and run:
+> gcc hello.c -o hello && gcc hello.c -o hello
+```
+
+## The "main" function
+* C programs start with the main() function
+* It returns an int, 0 if successful, otherwise it failed
+```c
+int main() {
+	return 0;
+}
+```
+
+
