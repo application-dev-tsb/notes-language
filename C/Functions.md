@@ -21,12 +21,17 @@ fgets(name, sizeof(name), stdin);
 ## String Functions
 * strstr
 ```c
-  char *str1 = "testament";
+	char *str1 = "testament";
 	char *str2 = "test";
 
+	//questionable usefulness
 	int x = strstr(str1, str2); //memory address of the first 't'
 ```
 * strchr
+```c
+//returns a pointer to the first occurence of the character param
+printf("%s", strchr(str1, 'a')); //"testament" -> "ament"
+```
 * strcmp
 * strcpy
 * strlen
