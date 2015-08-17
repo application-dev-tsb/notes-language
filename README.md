@@ -26,24 +26,19 @@ A Reminder for my Future Self on How To Get Things Done. Included in this great 
 # Javascript
 
 # C
-* Basics
+* [Basics](/C/Basics.md)
 * Data Types
 * Control Flow
 * Functions
 * Structs
 
 # Objective C
-* [Native Data Types][ObjectiveC_NativeDataTypes]
-* C Functions
-* Structs
-* Pointers
-* Arrays
-* Operators
-* Flow Controls
 * Classes
-* Class Methods
-* Instance Variables
-[ObjectiveC_NativeDataTypes]: ObjectiveC/NativeDataTypes.md "ObjectiveC Native Data Types"
+* Blocks
+* Errors
+* Protocols
+* Categories (Class Extensions)
+* Values and Collections
 
 # Swift
 * [Basics](/Swift/Basics.md)
