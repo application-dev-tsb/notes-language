@@ -1,6 +1,8 @@
 # Functions
 
 ## Useful Functions
+[Tutorials Point - Standard Library Reference](http://www.tutorialspoint.com/c_standard_library/index.htm)
+
 * sizeof
 ```c
 //technically an operator
