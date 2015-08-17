@@ -37,4 +37,25 @@ int main() {
 }
 ```
 
+## Basic I/O
+```c
+int main()
+{
+	//basic output
+	puts("Enter a Positive Number:\n");
 
+	int number;
+
+	//basic input
+	scanf("%i", &number);
+
+	if (number < 0) {
+		puts("This is not a valid number");
+		return -1; //program failed
+	}
+
+	//formatted output
+	printf("%i is an awesome number\n", number);
+	return 0;
+}
+```
