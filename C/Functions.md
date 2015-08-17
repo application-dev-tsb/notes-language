@@ -17,3 +17,20 @@ scanf("%39s", &name); //the last character is the terminator for strings
 //same as scanf with a limit on input size and only works with one variable
 fgets(name, sizeof(name), stdin); 
 ```
+
+## String Functions
+* strstr
+```c
+  char *str1 = "testament";
+	char *str2 = "test";
+
+	int x = strstr(str1, str2); //memory address of the first 't'
+```
+* strchr
+* strcmp
+* strcpy
+* strlen
+```c
+int x = strlen(str1); //length of the string
+```
+* strcat
