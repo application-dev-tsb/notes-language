@@ -60,3 +60,6 @@ int main()
 	return 0;
 }
 ```
+
+### References:
+[Gnu C Language Reference](http://www.gnu.org/software/gnu-c-manual/gnu-c-manual.html)
