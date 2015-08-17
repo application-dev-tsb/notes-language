@@ -19,6 +19,15 @@ scanf("%39s", &name); //the last character is the terminator for strings
 //same as scanf with a limit on input size and only works with one variable
 fgets(name, sizeof(name), stdin); 
 ```
+* printf
+```c
+printf("%s\n", "The message gets printed to the standard output");
+```
+* fprintf
+```c
+//replace stdout with stderr if you want to output on the error channel
+fprintf(stdout, "%s\n", "Error Message Here");
+```
 
 ## String Functions
 * strstr
