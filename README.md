@@ -25,6 +25,13 @@ A Reminder for my Future Self on How To Get Things Done. Included in this great 
 
 # Javascript
 
+# C
+* Basics
+* Data Types
+* Control Flow
+* Functions
+* Structs
+
 # Objective C
 * [Native Data Types][ObjectiveC_NativeDataTypes]
 * C Functions
