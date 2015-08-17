@@ -28,7 +28,7 @@ A Reminder for my Future Self on How To Get Things Done. Included in this great 
 # C
 * [Basics](/C/Basics.md)
 * Data Types
-* Control Flow
+* [Control Flow](/C/ControlFlow.md]
 * Functions
 * Structs
 
