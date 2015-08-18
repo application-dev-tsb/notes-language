@@ -51,3 +51,6 @@ void do_another_thing(human h)
 	printf("Name: %s\nAge: %i\nWeight: %f\n", h.name, h.age, h.weight);
 }
 ```
+
+#### Notes:
+* structs are not pointers, when it is reassinged to another variable, A NEW COPY IS MADE
