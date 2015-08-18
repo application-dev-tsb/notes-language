@@ -84,5 +84,40 @@ void do_another_thing(human *h)
 }
 ```
 
+# Unions
+```c
+ typedef union {
+ 	int grade;
+ 	float super_powers;
+ } awesomeness;
+
+ typedef struct 
+ {
+ 	const char *name;
+ 	int age;
+ 	float weight;
+ 	awesomeness awe;
+ } human;
+
+void do_another_thing(human *h);
+
+
+int main() {
+	//creating a new struct
+	human h = {"Test", 10, 12.4, .awe={.super_powers=100.0}};
+	do_another_thing(&h);
+	do_another_thing(&h);
+ 	return 0;
+}
+
+//struct as param
+void do_another_thing(human *h) 
+{
+	printf("Name: %s\nAge: %i\nWeight: %f\n", h->name, h->age, h->weight);
+	printf("Awesomeness: %i\n", h->awe.grade);
+	h->age = h->age + 1;
+}
+```
+
 #### Notes:
 * structs are not pointers, when it is reassinged to another variable, A NEW COPY IS MADE
