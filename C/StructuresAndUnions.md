@@ -120,5 +120,16 @@ void do_another_thing(human *h)
 }
 ```
 
+## Bit Fields
+You can create structures with integer members of nonstandard sizes, called bit fields. You do this by specifying an integer (int, char, long int, etc.) member as usual, and inserting a colon and the number of bits that the member should occupy in between the member's name and the semicolon.
+```c
+struct card
+{
+	unsigned int suit : 2;
+    unsigned int face_value : 4;
+};
+```
+
+
 #### Notes:
 * structs are not pointers, when it is reassinged to another variable, A NEW COPY IS MADE
