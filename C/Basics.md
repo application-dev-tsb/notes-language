@@ -37,6 +37,19 @@ int main() {
 	return 0;
 }
 ```
+* Main can also accept parameters
+```
+> ./program param1 param2 param3
+```
+```c
+int main(int argc, char *argv[]) 
+{
+	for (int i=1; i<argc; i++) {
+		printf("%i = %s\n", i, argv[i]);
+	}
+	return 0;
+}
+```
 
 ## Basic I/O
 ```c
