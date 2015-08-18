@@ -88,6 +88,38 @@ int main(int argc, char *argv[])
 }
 ```
 
+## Multiple Files
+```
+> gcc app.c helper.c -o app && ./app
+```
+```c
+/*
+ * file: app.c
+ */
+#include "helper.h"
+
+int main() {
+	do_something();
+ 	return 0;
+}
+```
+```c
+/*
+ * helper.h
+ */
+void do_something();
+```
+```c
+/*
+ * file: helper.c
+ */
+#include <stdio.h>
+
+void do_something() {
+	printf("Test\n");
+}
+```
+
 ## Basic I/O
 ```c
 int main()
