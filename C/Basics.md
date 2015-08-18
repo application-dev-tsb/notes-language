@@ -50,6 +50,43 @@ int main(int argc, char *argv[])
 	return 0;
 }
 ```
+* Named options are also accepted
+```
+> ./program -a -n "El Awesomo" aaa bbb ccc
+```
+```c
+//accepts options and normal params:
+//-a = boolean to enable, no argument needed
+//-n = your name, needs arguments
+int main(int argc, char *argv[]) 
+{
+
+	char ch;
+	while ((ch = getopt(argc, argv, "an:")) != EOF) {
+		switch (ch) {
+			case 'a':
+				printf("Awesomeness enabled!\n");
+				break;
+			case 'n':
+				printf("Name: %s\n", optarg); //no idea where this came from
+				break;
+			default:
+				printf("Error: Unknown Parameter\n");
+				return 1;
+		}
+	}
+
+	//no idea where optind came from
+	argc -= optind;
+	argv += optind;
+
+	//outputs the trailing arguments
+	for (int i=0; i<argc; i++) {
+		printf("%i = %s\n", i, argv[i]);
+	}
+	return 0;
+}
+```
 
 ## Basic I/O
 ```c
