@@ -31,7 +31,7 @@ A Reminder for my Future Self on How To Get Things Done. Included in this great 
 * [Operators](/C/Operators.md)
 * Functions
 * Primitive Data Types
-* Structs
+* [Structures](/C/Structures.md)
 * Enumerations
 * Unions
 * Arrays
