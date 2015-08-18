@@ -75,5 +75,14 @@ void do_another_thing(human *h)
 }
 ```
 
+## Alternative Syntax to (*_)
+```c
+void do_another_thing(human *h) 
+{
+	printf("Name: %s\nAge: %i\nWeight: %f\n", h->name, h->age, h->weight);
+	h->age = h->age + 1;
+}
+```
+
 #### Notes:
 * structs are not pointers, when it is reassinged to another variable, A NEW COPY IS MADE
