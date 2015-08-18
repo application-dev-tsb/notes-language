@@ -32,7 +32,7 @@ A Reminder for my Future Self on How To Get Things Done. Included in this great 
 * Functions
 * Primitive Data Types
 * [Structures and Unions](/C/StructuresAndUnions.md)
-* Enumerations
+* [Enumerations](/C/Enumerations.md)
 * Arrays
 * [Memory Pointers](/C/MemoryPointers.md)
 * [Input and Output](/C/InputAndOutput.md)
