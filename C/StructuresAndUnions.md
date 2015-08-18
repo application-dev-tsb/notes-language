@@ -104,7 +104,8 @@ void do_another_thing(human *h);
 
 int main() {
 	//creating a new struct
-	human h = {"Test", 10, 12.4, .awe={.super_powers=100.0}};
+	human h = {"Test", 10, 12.4, .awe={.grade=100}};
+	//alternative: human h = {"Test", 10, 12.4, .awe={100}}; <-only works if using first field in the union
 	do_another_thing(&h);
 	do_another_thing(&h);
  	return 0;
