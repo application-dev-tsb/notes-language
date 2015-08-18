@@ -31,9 +31,8 @@ A Reminder for my Future Self on How To Get Things Done. Included in this great 
 * [Operators](/C/Operators.md)
 * Functions
 * Primitive Data Types
-* [Structures](/C/Structures.md)
+* [Structures and Unions](/C/StructuresAndUnions.md)
 * Enumerations
-* Unions
 * Arrays
 * [Memory Pointers](/C/MemoryPointers.md)
 * [Input and Output](/C/InputAndOutput.md)
