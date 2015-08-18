@@ -88,7 +88,7 @@ int main(int argc, char *argv[])
 }
 ```
 
-## Multiple Files
+## Compile and Link Multiple Files
 ```
 > gcc app.c helper.c -o app && ./app
 ```
@@ -118,6 +118,21 @@ void do_something();
 void do_something() {
 	printf("Test\n");
 }
+```
+
+## Compile Individual Files
+* Compile ALL source files in the directory (this will generate **.o files)
+```
+> gcc -c *.c
+```
+* Link All Compiled Files
+```
+> gcc *.o -o app 
+```
+* If you just changed one file, just compile the updated files and link them again
+```
+> gcc -c changed_file.c
+> gcc *.o -o app 
 ```
 
 ## Basic I/O
