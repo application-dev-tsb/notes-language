@@ -111,5 +111,46 @@ int main()
 }
 ```
 
+## Preprocessor
+```c
+/*
+ * file: app.h
+ */
+
+//invalid if undeclared in C99, will probably work with a warning in C11 because int functions are implicit for undeclared functions
+int an_int_function(); 
+
+//required: this will not compile if removed
+float a_float_function();
+```
+```c
+/*
+ * file: app.c
+ */
+#include <stdio.h>
+
+//preprocessor: inserts the contents of the file before compilation
+//alternative: insert the declaration HERE (same effect)
+#include "app.h"
+
+int main() 
+{
+	printf("Running\n");
+	int my_int = an_int_function();
+	float my_float = a_float_function();
+
+	printf("%i - %f\n", my_int, my_float);
+}
+
+int an_int_function()
+{
+	return 222;
+}
+
+float a_float_function() {
+	return 1.011111;
+}
+```
+
 ### References:
 [Gnu C Language Reference](http://www.gnu.org/software/gnu-c-manual/gnu-c-manual.html)
