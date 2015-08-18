@@ -199,5 +199,50 @@ float a_float_function() {
 }
 ```
 
+## Using "make" for Builds
+* Source Files:
+```c
+/*
+ * file: app.c
+ */
+#include "helper.h"
+
+int main() {
+	do_something();
+ 	return 0;
+}
+
+/*
+ * helper.h
+ */
+void do_something();
+
+/*
+ * file: helper.c
+ */
+#include <stdio.h>
+#include "helper.h"
+
+void do_something() {
+	printf("Test\n");
+	printf("Testsss\n");
+}
+```
+* create the file: "makefile"
+```make
+app.o: app.c helper.h
+	gcc -c app.c
+
+helper.o: helper.h helper.c
+	gcc -c helper.c
+
+app: app.o helper.o
+	gcc app.o helper.o -o app
+```
+* build using the make command
+```cmd
+> make app
+```
+
 ### References:
 [Gnu C Language Reference](http://www.gnu.org/software/gnu-c-manual/gnu-c-manual.html)
