@@ -37,6 +37,10 @@ A Reminder for my Future Self on How To Get Things Done. Included in this great 
 * [Memory Pointers](/C/MemoryPointers.md)
 * [Input and Output](/C/InputAndOutput.md)
 
+References:
+
+[GNU C Reference](http://www.gnu.org/software/gnu-c-manual/gnu-c-manual.html)
+
 # Objective C
 * Classes
 * Blocks
@@ -70,6 +74,10 @@ A Reminder for my Future Self on How To Get Things Done. Included in this great 
 
 ###### Swift 2
 * [Error Handling](https://developer.apple.com/library/prerelease/ios/documentation/Swift/Conceptual/Swift_Programming_Language/ErrorHandling.html#//apple_ref/doc/uid/TP40014097-CH42-ID508)
+
+References:
+
+[Apple Swift Language Guide](https://developer.apple.com/library/ios/documentation/Swift/Conceptual/Swift_Programming_Language/index.html#//apple_ref/doc/uid/TP40014097-CH3-ID0)
 
 ### Design Patterns
 * Strategy
