@@ -36,6 +36,7 @@ A Reminder for my Future Self on How To Get Things Done. Included in this great 
 * Arrays
 * [Memory Pointers](/C/MemoryPointers.md)
 * [Input and Output](/C/InputAndOutput.md)
+* [Heap Allocation](/C/HeapAllocation.md)
 
 References:
 
