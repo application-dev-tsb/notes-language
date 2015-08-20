@@ -52,6 +52,15 @@ void do_another_thing(human h)
 }
 ```
 
+## Recursive Struct
+```c
+typedef struct island {
+	char name[1000];
+	long long position;
+	struct island *next;
+} island;
+```
+
 ## Modifying a Struct from another Place
 ```c
 void do_another_thing(human *h);
