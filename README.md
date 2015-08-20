@@ -33,7 +33,7 @@ A Reminder for my Future Self on How To Get Things Done. Included in this great 
 * [Primitive Data Types](/C/PrimitiveDataTypes.md)
 * [Structures and Unions](/C/StructuresAndUnions.md)
 * [Enumerations](/C/Enumerations.md)
-* Arrays
+* [Arrays](/C/Arrays.md)
 * [Memory Pointers](/C/MemoryPointers.md)
 * [Input and Output](/C/InputAndOutput.md)
 * [Heap Allocation](/C/HeapAllocation.md)
