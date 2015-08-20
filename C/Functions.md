@@ -1,4 +1,21 @@
 # Functions
+You can write functions to separate parts of your program into distinct subprocedures. To write a function, you must at least create a function definition. It is a good idea also to have an explicit function declaration; you don't have to, but if you leave it out, then the default implicit declaration might not match the function itself, and you will get some compile-time warnings
+```c
+//declaration:
+return-type function-name (parameter-list);
+
+//definition:
+return-type
+function-name (parameter-list)
+{
+  function-body
+}
+```
+
+
+Resources:
+
+[Gnu C Manual](http://www.gnu.org/software/gnu-c-manual/gnu-c-manual.html#Functions)
 
 ## Useful Functions
 [Tutorials Point - Standard Library Reference](http://www.tutorialspoint.com/c_standard_library/index.htm)
