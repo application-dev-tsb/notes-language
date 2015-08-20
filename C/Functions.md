@@ -12,6 +12,39 @@ function-name (parameter-list)
 }
 ```
 
+## Variadic Parameter Functions
+```c
+#include <stdarg.h> //this library is required
+
+void variadic(int i, ...);
+
+int main() {
+
+	variadic(3, "aws", "block", "catch");
+	
+ 	return 0;
+}
+
+void variadic(int size, ...) {
+
+	va_list params;
+
+	//params: 
+	//1 - tha va_list
+	//2 - the last argument before the va_list
+	va_start(params, size);
+
+	for (int i=0; i<size; i++) {
+		//get the value of the var args
+		char *val = va_arg(params, char*);
+		
+		printf("%s\n", val);
+	}
+
+	va_end(params);
+}
+```
+
 
 Resources:
 
