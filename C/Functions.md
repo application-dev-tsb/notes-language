@@ -45,6 +45,15 @@ void variadic(int size, ...) {
 }
 ```
 
+## Static Functions
+You can define a function to be static if you want it to be callable only within the source file where it is defined:
+```c
+static int foo (int x)
+{
+	return x + 42;
+}
+```
+
 
 Resources:
 
