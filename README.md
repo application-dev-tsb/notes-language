@@ -50,6 +50,10 @@ References:
 * Categories (Class Extensions)
 * Values and Collections
 
+References:
+
+[Apple ObjectiveC Guide](https://developer.apple.com/library/mac/documentation/Cocoa/Conceptual/ProgrammingWithObjectiveC/Introduction/Introduction.html)
+
 # Swift
 * [Basics](/Swift/Basics.md)
 * [Control Flow](/Swift/ControlFlow.md)
