@@ -30,7 +30,7 @@ A Reminder for my Future Self on How To Get Things Done. Included in this great 
 * [Control Flow](/C/ControlFlow.md)
 * [Operators](/C/Operators.md)
 * [Functions](/C/Functions.md)
-* Primitive Data Types
+* [Primitive Data Types](/C/PrimitiveDataTypes.md)
 * [Structures and Unions](/C/StructuresAndUnions.md)
 * [Enumerations](/C/Enumerations.md)
 * Arrays
