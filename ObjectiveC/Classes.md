@@ -23,8 +23,53 @@ A class describes the behavior and properties common to any particular type of o
 ```
 
 ## Implementation
+```objectivec
+//file: Robot.m
+#import "Robot.h"
 
-## Objective-C Classes Are also Objects
+@implementation Robot
+
+- (void)activate {
+    NSLog(@"Activate");
+}
+
+- (BOOL)scanIfTarget:(NSString*)human {
+    NSLog(@"Scanning: %@", human);
+    if ([human isEqualToString:@"bieber"]) {
+        return YES;
+    }
+    return NO;
+}
+
+- (void)killHuman:(NSString*)human usingWeapon:(NSString*)weapon {
+    NSLog(@"%@ is attacking %@ using %@", self.name, human, weapon);
+}
+
+@end
+```
+
+## Class Usage
+```objectivec
+#import <Foundation/Foundation.h>
+#import "Robot.h"
+
+int main(int argc, const char * argv[]) {
+    @autoreleasepool {
+        // insert code here...
+        Robot *robot = [[Robot alloc] init];
+        robot.name = @"Terminator";
+        
+        [robot activate];
+        NSString *bieber = @"bieber";
+        if ([robot scanIfTarget:bieber]) {
+            [robot killHuman:bieber usingWeapon:@"Machine Gun"];
+        }
+    }
+    return 0;
+}
+```
+
+## Objective-C Classes Are also Objects (Class)
 
 Reference:
 
