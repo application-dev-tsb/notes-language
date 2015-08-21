@@ -54,6 +54,53 @@ static int foo (int x)
 }
 ```
 
+## Functions as Params
+```c
+#include <stdio.h>
+#include <strings.h>
+
+ typedef struct person
+ {
+ 	char *name;
+ 	char *likes;
+ } person;
+
+void find_match(int size, person candidates[], int(*match)(char*));
+int sports_and_not_bieber(char *val);
+int bieber(char *val);
+
+int main() {
+
+	person candidates[] = {
+		{"John Doe", "likes sports, fashion"},
+		{"Jane Dude", "likes bieber, taylor"}
+	};
+
+	find_match(2, candidates, bieber);
+	
+ 	return 0;
+}
+
+void find_match(int size, person candidates[], int(*match)(char*)) {
+	
+	for (int i=0; i<size; i++) {
+		person p = candidates[i];
+
+		if (match(p.likes)) {
+			printf("%s is a match!!!\n", p.name);
+		}
+		
+	}
+}
+
+int sports_and_not_bieber(char *val) {
+	return strstr(val, "sports") && !strstr(val, "bieber");
+}
+
+int bieber(char *val) {
+	return strstr(val, "bieber");
+}
+```
 
 Resources:
 
