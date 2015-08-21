@@ -13,11 +13,11 @@ A class describes the behavior and properties common to any particular type of o
 @interface Robot : NSObject
 
 @property NSString *name;
-@property int kills;
+@property (readonly) int kills; //attributes
 
 - (void)activate;
-- (BOOL)scanIfTarget:(NSString*)human;
-- (void)kill:(NSString*)human usingWeapon:(NSString*)weapon;
+- (BOOL)scanIfTarget:(NSString *)human;
+- (void)kill:(NSString *)human usingWeapon:(NSString *)weapon;
 
 @end
 ```
@@ -33,7 +33,7 @@ A class describes the behavior and properties common to any particular type of o
     NSLog(@"Activate");
 }
 
-- (BOOL)scanIfTarget:(NSString*)human {
+- (BOOL)scanIfTarget:(NSString *)human {
     NSLog(@"Scanning: %@", human);
     if ([human isEqualToString:@"bieber"]) {
         return YES;
@@ -41,7 +41,7 @@ A class describes the behavior and properties common to any particular type of o
     return NO;
 }
 
-- (void)killHuman:(NSString*)human usingWeapon:(NSString*)weapon {
+- (void)killHuman:(NSString *)human usingWeapon:(NSString *)weapon {
     NSLog(@"%@ is attacking %@ using %@", self.name, human, weapon);
 }
 
@@ -57,9 +57,9 @@ int main(int argc, const char * argv[]) {
     @autoreleasepool {
         // insert code here...
         Robot *robot = [[Robot alloc] init];
-        robot.name = @"Terminator";
+        robot.name = @"Terminator"; //accessing properties
         
-        [robot activate];
+        [robot activate]; //sending messages
         NSString *bieber = @"bieber";
         if ([robot scanIfTarget:bieber]) {
             [robot killHuman:bieber usingWeapon:@"Machine Gun"];
@@ -68,6 +68,7 @@ int main(int argc, const char * argv[]) {
     return 0;
 }
 ```
+
 
 ## Objective-C Classes Are also Objects (Class)
 
