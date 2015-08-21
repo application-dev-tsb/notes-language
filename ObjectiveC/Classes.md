@@ -70,7 +70,31 @@ int main(int argc, const char * argv[]) {
 ```
 
 
-## Objective-C Classes Are also Objects (Class)
+## Initializers
+```objectivec
+//Robot.h
+- (id)init
+- (id)initWithName:(NSString *)name;
+
+//Robot.m
+- (id)init {
+    return self;
+}
+
+- (id)initWithName:(NSString *)name {
+    if (name==nil || [name isEqualToString:@""]) {
+        return nil;
+    }
+    self.name = name;
+    return self;
+}
+
+//usage:
+
+Robot *robot = [[Robot alloc] initWithName:@"Terminator"];
+Robot *robot = [Robot new]; //init with no parameter
+
+```
 
 Reference:
 
