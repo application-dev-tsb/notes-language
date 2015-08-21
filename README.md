@@ -47,7 +47,7 @@ References:
 * Blocks
 * Errors
 * Protocols
-* [Categories (Class Extensions)](/ObjectiveC/Categories.md)
+* [Categories and Class Extensions](/ObjectiveC/Categories.md)
 * Values and Collections
 
 References:
