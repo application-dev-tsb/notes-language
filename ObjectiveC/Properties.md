@@ -38,3 +38,19 @@ NSString *_mySecretCode;
     return 1;
 }
 ```
+
+ARC (Strong, Weak, Unsafe_Unretained)
+- variable and property references can be specified
+```objectivec
+
+//properties:
+@property (strong) NSString *codeName;
+@property (weak) NSString *codeName;
+@property (unsafe_unretained) NSString *codeName;
+
+//variables:
+NSObject __strong *someUnsafeRef;
+NSObject __weak *someUnsafeRef;
+NSObject __unsafe_unretained *someUnsafeRef;
+```
+- unsafe_unretained is just like a weak pointer, its for legacy objects that cant support weak
