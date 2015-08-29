@@ -30,3 +30,11 @@ _codeNameStorage = @"Test";
 NSString *_mySecretCode;
 @end
 ```
+- You can implement custom accessor
+```objectivec
+@property (readonly) int secretNumber;
+
+- (int)secretNumber {
+    return 1;
+}
+```
