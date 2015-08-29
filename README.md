@@ -44,6 +44,7 @@ References:
 
 # Objective C
 * [Classes](/ObjectiveC/Classes.md)
+* [Properties](/ObjectiveC/Properties.md)
 * Blocks
 * Errors
 * Protocols
