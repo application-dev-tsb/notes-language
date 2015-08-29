@@ -43,3 +43,40 @@
     }
 }
 ```
+
+## Conforming
+```objectivec
+//CoolDecisionDatasource.h
+@interface CoolDecisionDatasource : NSObject <DecisionDatasource, Protocol2, Protocol3> // <-- you can adopt multiple protocols
+
+@property NSString *propertyConformance;
+
+- (void)doSomeRequiredThing;
+- (void)doMe;
+- (void)notRequiredToImplement;
+- (void)requiredToImplement;
+
+@end
+//CoolDecisionDatasource.m
+@implementation CoolDecisionDatasource
+- (void)doSomeRequiredThing {
+}
+
+- (void)doMe {
+}
+
+- (void)notRequiredToImplement {
+    NSLog(@"Im Not Required But I Implemented Crap Anyway");
+}
+
+- (void)requiredToImplement {
+}
+@end
+```
+
+## Protocols can Inherit from Multiple Protocols
+```objectivec
+@protocol Protocol2 <NSObject, DecisionDatasource>
+
+@end
+```
