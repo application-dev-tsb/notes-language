@@ -24,3 +24,9 @@ self.codeName = @"Test";
 //access:
 _codeNameStorage = @"Test";
 ```
+- You can define instance variables without using properties
+```objectivec
+@implementation Robot
+NSString *_mySecretCode;
+@end
+```
