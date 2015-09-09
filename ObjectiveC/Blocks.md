@@ -148,4 +148,17 @@ AdderBlock myAdderTwen = ^ (int a, int b) {
     };
 
 }
+
+//FIXED:
+- (void)captureSelf {
+    
+    //fixed the circular reference with a weak reference
+    AddedExecutor __weak *weakSelf = self;
+    
+    self.adder = ^ (int a, int b) {
+        [weakSelf doSomething];
+        return 1;
+    };
+
+}
 ```
