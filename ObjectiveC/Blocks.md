@@ -124,6 +124,15 @@ int main(int argc, const char * argv[]) {
 }
 ```
 
+## Typedef for Blocks
+```objectivec
+typedef int (^AdderBlock)(int,int);
+
+AdderBlock myAdderTwen = ^ (int a, int b) {
+        return 10;
+};
+```
+
 ## Blocks can be Properties
 ```objectivec
 @property (copy) int (^adder)(int,int); 
