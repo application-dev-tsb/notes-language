@@ -66,3 +66,60 @@ int main(int argc, const char * argv[]) {
     return 0;
 }
 ```
+
+## Functions  can Accept Block Parameters
+```objectivec
+int main(int argc, const char * argv[]) {
+    @autoreleasepool {
+    
+        int (^myAdder)(int,int) = ^ (int a, int b) {
+            return 10;
+        };
+        
+        runAdder(myAdder);
+    }
+    return 0;
+}
+
+
+//function
+void runAdder(int (^adder)(int, int)) {
+    int result = adder(500, 600);
+    NSLog(@"Result=%i", result); //10
+}
+```
+
+## Methods can Accept Block Parameters
+```objectivec
+//methods
+//AddedExecutor.h
+@interface AddedExecutor : NSObject
+
+- (void)performAdder:(int (^)(int,int))adder;
+                      
+@end
+
+//AddedExecutor.m
+@implementation AddedExecutor
+
+- (void)performAdder:(int (^)(int,int))adder {
+    int result = adder(2, 5);
+    NSLog(@"result=%i", result);
+}
+
+@end
+
+int main(int argc, const char * argv[]) {
+    @autoreleasepool {
+        
+        AddedExecutor *a = [AddedExecutor new];
+    
+        int (^myAdder)(int,int) = ^ (int a, int b) {
+            return 10;
+        };
+        
+        [a performAdder:myAdder];
+    }
+    return 0;
+}
+```
