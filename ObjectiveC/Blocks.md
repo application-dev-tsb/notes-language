@@ -15,3 +15,13 @@ myblock = ^{
 //invoke: will crash if nil
 myblock();
 ```
+
+## Blocks with Parameter and Return Type
+```objectivec
+
+int (^addTwoInt)(int,int) = ^ (int a, int b) {
+        return a + b;
+};
+        
+int result = addTwoInt(1, 2);
+```
