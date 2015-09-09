@@ -137,3 +137,15 @@ AdderBlock myAdderTwen = ^ (int a, int b) {
 ```objectivec
 @property (copy) int (^adder)(int,int); 
 ```
+
+## Avoid Circular References when Capturing Self
+```objectivec
+- (void)captureSelf {
+    
+    self.adder = ^ (int a, int b) {
+        [self doSomething]; //ow no: circular reference
+        return 1;
+    };
+
+}
+```
