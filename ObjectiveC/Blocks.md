@@ -16,7 +16,7 @@ myblock = ^{
 myblock();
 ```
 
-## Blocks with Parameter and Return Type
+## Parameter and Return Type
 ```objectivec
 
 int (^addTwoInt)(int,int) = ^ (int a, int b) {
@@ -24,4 +24,25 @@ int (^addTwoInt)(int,int) = ^ (int a, int b) {
 };
         
 int result = addTwoInt(1, 2);
+```
+
+## Capturing Variables
+```objectivec
+int main(int argc, const char * argv[]) {
+    @autoreleasepool {
+    
+        int x = 1;
+        
+        void (^alterValue)(void) = ^ {
+             NSLog(@"captured x=%i", x); //still 1
+        };
+        
+        x = 2;
+        
+        alterValue();
+        
+        NSLog(@"x=%i", x); //2
+    }
+    return 0;
+}
 ```
