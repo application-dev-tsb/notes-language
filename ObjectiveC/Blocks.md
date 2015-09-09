@@ -46,3 +46,23 @@ int main(int argc, const char * argv[]) {
     return 0;
 }
 ```
+
+## __block variables are in a Shared Storage
+```objectivec
+int main(int argc, const char * argv[]) {
+    @autoreleasepool {
+    
+        __block int x = 1;
+        
+        void (^alterValue)(void) = ^ {
+            NSLog(@"captured x=%i", x); //captured as 1
+            x = x + 5;
+        };
+        
+        alterValue();
+        
+        NSLog(@"x=%i", x); //6
+    }
+    return 0;
+}
+```
