@@ -123,3 +123,8 @@ int main(int argc, const char * argv[]) {
     return 0;
 }
 ```
+
+## Blocks can be Properties
+```objectivec
+@property (copy) int (^adder)(int,int); 
+```
