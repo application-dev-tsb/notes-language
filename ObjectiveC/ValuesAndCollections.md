@@ -8,4 +8,4 @@ It’s possible to declare a C-style array in Objective-C, but you’ll find tha
 The previous chapters in this guide make frequent use of the NSString class and its initialization and class factory methods, as well as the Objective-C @"string" literal, which offers a concise syntax to create an NSString instance. This chapter explains how to create NSValue and NSNumber objects, using either method calls or through Objective-C value literal syntax.
 
 **References:**
-* [Apple: Values and References](https://developer.apple.com/library/mac/documentation/Cocoa/Conceptual/ProgrammingWithObjectiveC/FoundationTypesandCollections/FoundationTypesandCollections.html#//apple_ref/doc/uid/TP40011210-CH7-SW1)
+* [Apple: Values and Collections](https://developer.apple.com/library/mac/documentation/Cocoa/Conceptual/ProgrammingWithObjectiveC/FoundationTypesandCollections/FoundationTypesandCollections.html#//apple_ref/doc/uid/TP40011210-CH7-SW1)
