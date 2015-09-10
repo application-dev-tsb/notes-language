@@ -83,10 +83,24 @@ int main(int argc, const char * argv[]) {
 }
 ```
 
+## Exceptions for Programming Errors
+```objectivec
+@try {
+   // do something that might throw an exception
+}
+@catch (NSException *exception) {
+   // deal with the exception
+}
+@finally {
+   // optional block of clean-up code
+   // executed whether or not an exception occurred
+}
+```
 
 **References:**
-* [Notes: Internationalization and Localization](https://github.com/hack-of-all-codes/NotesIOS/blob/master/InternationalizationAndLocalization.md)
+* [iOS Notes: Internationalization and Localization](https://github.com/hack-of-all-codes/NotesIOS/blob/master/InternationalizationAndLocalization.md)
 * [Apple: Errors](https://developer.apple.com/library/mac/documentation/Cocoa/Conceptual/ProgrammingWithObjectiveC/ErrorHandling/ErrorHandling.html)
 * [Apple: Error Domains and Codes](https://developer.apple.com/library/mac/documentation/Cocoa/Conceptual/ErrorHandlingCocoa/ErrorObjectsDomains/ErrorObjectsDomains.html)
+* [Apple: Exception Programming Topics for Cocoa Touch](https://developer.apple.com/library/mac/documentation/Cocoa/Conceptual/Exceptions/Exceptions.html#//apple_ref/doc/uid/10000012i)
 
 
