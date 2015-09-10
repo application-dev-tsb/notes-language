@@ -18,7 +18,7 @@ For largely historical reasons, errors codes in OS X are segregated into domains
 
 @property (weak, nonatomic) id <ErrorMakingDelegate> errorDelegate;
 
-- (void)doSomething:(bool)bad withError:(NSError **)error;
+- (void)doSomethingThatThrowsAnError:(NSError **)error;
 - (void)dosomethingToTriggerTheDelegate;
 
 @end
@@ -29,10 +29,8 @@ For largely historical reasons, errors codes in OS X are segregated into domains
 
 @implementation ErrorMaker
 
-- (void)doSomething:(bool)bad withError:(NSError **)error {
-    if (bad) {
-        *error = [self createAnError];
-    }
+- (void)doSomethingThatThrowsAnError:(NSError **)error {
+    *error = [self createAnError];
 }
 
 - (void)dosomethingToTriggerTheDelegate {
@@ -71,7 +69,7 @@ int main(int argc, const char * argv[]) {
         //two ways to get an error:
         //1.) a passed by reference
         NSError *error;
-        [errorMaker doSomething:YES withError:&error];
+        [errorMaker doSomethingThatThrowsAnError:&error];
         
         if (error) {
             NSLog(@"Error Passed by Reference: %@\n", error);
