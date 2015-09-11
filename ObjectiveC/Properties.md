@@ -48,7 +48,22 @@ NSString *_mySecretCode;
 @property (weak) NSString *codeName; //reference count does not increase here
 @property (unsafe_unretained) NSString *codeName; //for older classes that does not support ARC
 
-//copy - creates a copy (via the copy method) and creates a strong reference to that object
+//copy - creates a copy (via the copy method) and creates a strong reference to that object (NSCopying protocol is required)
+//CopyableObject.h
+@interface CopyableObject : NSObject <NSCopying>
+@property (nonatomic) NSNumber *myNumber;
+@end
+//CopyableObject.m
+@implementation CopyableObject
+-(id)copyWithZone:(NSZone *)zone
+{
+    NSLog(@"Copy Invoked");
+    CopyableObject *cp = [CopyableObject new];
+    cp.myNumber = @111;
+    return cp;
+}
+@end
+
 //retain - 
 
 //variables:
