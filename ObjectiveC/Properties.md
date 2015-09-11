@@ -64,7 +64,7 @@ NSString *_mySecretCode;
 }
 @end
 
-//retain - 
+//retain - equal to strong
 
 //variables:
 NSObject __strong *someUnsafeRef;
