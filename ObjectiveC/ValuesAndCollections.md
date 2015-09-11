@@ -37,6 +37,14 @@ NSLog(@"a=%@ b=%@", a, b);
         
 //Sets: Unordered Collection of Distinct Objects
 NSSet *mySet = [NSSet setWithObjects:@"A", @1, @'C', nil];
+
+//Dictionary:
+NSDictionary *myDict = @{@"A":@1, @"B":@2, @"C":@3};
+NSLog(@"A=%@", myDict[@"A"]); //1
+        
+//order is: object, then key
+myDict = [NSDictionary dictionaryWithObjectsAndKeys:@1, @"A", @2, @"B", @3, @"C", nil];
+NSLog(@"C=%@", myDict[@"C"]); //3
 ```
 
 **References:**
