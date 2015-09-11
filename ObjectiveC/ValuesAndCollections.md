@@ -47,5 +47,18 @@ myDict = [NSDictionary dictionaryWithObjectsAndKeys:@1, @"A", @2, @"B", @3, @"C"
 NSLog(@"C=%@", myDict[@"C"]); //3
 ```
 
+## Collection Values cannot be nil
+```objectivec
+NSMutableDictionary *mutableDict = [NSMutableDictionary dictionaryWithObjectsAndKeys:@1, @"A", @2, @"B", @3, @"C", nil];
+NSLog(@"C=%@", mutableDict[@"C"]); //3
+        
+mutableDict[@"C"] = [NSNull null];
+NSLog(@"C=%@", mutableDict[@"C"]); //null
+        
+if (mutableDict[@"C"] == [NSNull null]) {
+        NSLog(@"It is null!!!");
+}
+```
+
 **References:**
 * [Apple: Values and Collections](https://developer.apple.com/library/mac/documentation/Cocoa/Conceptual/ProgrammingWithObjectiveC/FoundationTypesandCollections/FoundationTypesandCollections.html#//apple_ref/doc/uid/TP40011210-CH7-SW1)
