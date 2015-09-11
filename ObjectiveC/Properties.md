@@ -39,14 +39,17 @@ NSString *_mySecretCode;
 }
 ```
 
-ARC (Strong, Weak, Unsafe_Unretained)
+## ARC (Strong, Weak, Unsafe_Unretained, Retain, Copy)
 - variable and property references can be specified
 ```objectivec
 
 //properties:
-@property (strong) NSString *codeName;
-@property (weak) NSString *codeName;
-@property (unsafe_unretained) NSString *codeName;
+@property (strong) NSString *codeName; //DEFAULT: as long as one strong pointer is left, the object will never be dereferenced
+@property (weak) NSString *codeName; //reference count does not increase here
+@property (unsafe_unretained) NSString *codeName; //for older classes that does not support ARC
+
+//copy - creates a copy (via the copy method) and creates a strong reference to that object
+//retain - 
 
 //variables:
 NSObject __strong *someUnsafeRef;
