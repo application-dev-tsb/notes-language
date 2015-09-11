@@ -57,3 +57,4 @@ NSObject __weak *someUnsafeRef;
 NSObject __unsafe_unretained *someUnsafeRef;
 ```
 - unsafe_unretained is just like a weak pointer, its for legacy objects that cant support weak
+- ***strong*** is the default, but conventions dictate that we still specify it in property declaration
