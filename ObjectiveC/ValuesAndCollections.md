@@ -25,5 +25,19 @@ myNumber = @'C';
 int backToInt = [myNumber intValue]; //back to primitive
 ```
 
+## Collections
+```objectivec
+//Arrays: Ordered Collection of Ojects
+NSArray *myArray = [NSArray arrayWithObjects:@"A", @'B', nil];
+myArray = @[@"A", @"B"];
+        
+NSString *b = [myArray objectAtIndex:1]; //B
+NSString *a = myArray[0]; //A
+NSLog(@"a=%@ b=%@", a, b);
+        
+//Sets: Unordered Collection of Distinct Objects
+NSSet *mySet = [NSSet setWithObjects:@"A", @1, @'C', nil];
+```
+
 **References:**
 * [Apple: Values and Collections](https://developer.apple.com/library/mac/documentation/Cocoa/Conceptual/ProgrammingWithObjectiveC/FoundationTypesandCollections/FoundationTypesandCollections.html#//apple_ref/doc/uid/TP40011210-CH7-SW1)
