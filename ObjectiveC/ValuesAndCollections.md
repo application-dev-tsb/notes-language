@@ -85,5 +85,26 @@ int main(int argc, const char * argv[]) {
 }
 ```
 
+## Enumeration
+```objectivec
+NSArray *arr = @[@"A", @"B", @"C", @"D"];
+        
+//fast enumeration
+for (id val in arr) {
+        NSLog(@"fast=%@", val);
+}
+        
+//NSEnumerator
+for (id val in [arr reverseObjectEnumerator]) {
+        NSLog(@"a=%@", val);
+}
+
+id val;
+NSEnumerator *enumerator = [arr reverseObjectEnumerator];
+while (val = [enumerator nextObject]) {
+        NSLog(@"b=%@", val);
+}
+```
+
 **References:**
 * [Apple: Values and Collections](https://developer.apple.com/library/mac/documentation/Cocoa/Conceptual/ProgrammingWithObjectiveC/FoundationTypesandCollections/FoundationTypesandCollections.html#//apple_ref/doc/uid/TP40011210-CH7-SW1)
