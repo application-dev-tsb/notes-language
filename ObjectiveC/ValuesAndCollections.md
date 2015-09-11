@@ -60,5 +60,30 @@ if (mutableDict[@"C"] == [NSNull null]) {
 }
 ```
 
+## Wrapping Structs with NSValue
+It’s also possible to create NSValue objects to represent custom structures. If you have a particular need to use a C structure (rather than an Objective-C object) to store information, like this:
+```objectivec
+typedef struct MyStruct {
+    int i;
+    float f;
+} MyStruct;
+
+int main(int argc, const char * argv[]) {
+    @autoreleasepool {
+        struct MyStruct myStruct;
+        myStruct.i = 1;
+        myStruct.f = 2.0;
+
+        NSValue *structAsValue = [NSValue value:&myStruct withObjCType:@encode(MyStruct)];
+        
+        struct MyStruct extractedStruct;
+        [structAsValue getValue:&extractedStruct];
+        
+        NSLog(@"i=%i, f=%f", extractedStruct.i, extractedStruct.f);
+    }
+    return 0;
+}
+```
+
 **References:**
 * [Apple: Values and Collections](https://developer.apple.com/library/mac/documentation/Cocoa/Conceptual/ProgrammingWithObjectiveC/FoundationTypesandCollections/FoundationTypesandCollections.html#//apple_ref/doc/uid/TP40011210-CH7-SW1)
