@@ -18,6 +18,7 @@ A Reminder for my Future Self on How To Get Things Done. Included in this great 
 * Regular Expressions
 * [Optionals](http://www.oracle.com/technetwork/articles/java/java8-optional-2175753.html)
 * [Weak References](https://docs.oracle.com/javase/7/docs/api/java/lang/ref/WeakReference.html)
+* Annotations
 
 ###### Java 8
 * [Lambda/Closures](/Java/Lambda.md)
