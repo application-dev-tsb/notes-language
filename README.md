@@ -86,6 +86,23 @@ References:
 
 [Apple Swift Language Guide](https://developer.apple.com/library/ios/documentation/Swift/Conceptual/Swift_Programming_Language/index.html#//apple_ref/doc/uid/TP40014097-CH3-ID0)
 
+# SQL
+* Database
+* Table
+* Query
+* Delete
+* Truncate
+* Join
+* Auto Increment
+* Constraint
+* Index
+* Cluster/Noncluster Index
+* Collation
+* Functions
+* User Defined Functions
+* Stored Procedures
+* Data Warehouse
+
 ### Design Patterns
 * Strategy
 * Factory
