@@ -92,7 +92,7 @@ References:
 * Query
 * Delete
 * Truncate
-* Join
+* [Joins](/SQL/Joins.md)
 * Auto Increment
 * Constraint
 * Index
