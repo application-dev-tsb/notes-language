@@ -94,6 +94,7 @@ References:
 * Truncate
 * [Joins](/SQL/Joins.md)
 * Auto Increment
+* Transactions
 * Constraint
 * Index
 * Cluster/Noncluster Index
