@@ -95,6 +95,7 @@ References:
 * [Joins](/SQL/Joins.md)
 * Auto Increment
 * Transactions
+* Locking
 * Constraint
 * Index
 * Cluster/Noncluster Index
