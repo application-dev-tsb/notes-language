@@ -21,8 +21,10 @@ A Reminder for my Future Self on How To Get Things Done. Included in this great 
 * Annotations
 
 ###### Java 8
-* [Lambda/Closures](/Java/Lambda.md)
+* [Lambda Expressions](/Java/Lambda.md)
 * Stream API
+* IO and NIO
+* Concurrency
 
 # Javascript
 
