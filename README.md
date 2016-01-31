@@ -4,6 +4,7 @@ A Reminder for my Future Self on How To Get Things Done. Included in this great 
 #Table Of Contents
 
 # Java
+* [Basics](/Java/Basics.md)
 * [Native Data Types](/Java/NativeDataTypes.md)
 * Important Objects
 * Methods
