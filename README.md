@@ -5,6 +5,7 @@ A Reminder for my Future Self on How To Get Things Done. Included in this great 
 
 # Java
 * [Basics](/Java/Basics.md)
+* [Access Modifiers](/Java/AccessModifier.md)
 * [Native Data Types](/Java/NativeDataTypes.md)
 * Important Objects
 * Methods
