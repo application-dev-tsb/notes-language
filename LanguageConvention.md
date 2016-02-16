@@ -4,11 +4,12 @@ Basics:
 - Comments
 - Console Read/Write 
 - Variable/Constant Declaration
+- Assigment Operator
 - Import Libraries
 
 Data Types:
 - Native/Basic Data Types (short, int, long, double, float, byte, char, boolean) 
-- Common Data Types (String, BigInteger, Decimal, Date)
+- Common Data Types (String, BigInteger, Decimal, Date, Random)
 
 Arithmetic Operations
 - Addition
@@ -20,7 +21,7 @@ Arithmetic Operations
 
 Control Flow
 - Conditional (if-elseif-else)
-- Loops
+- Loop
 - Switch
 
 Collections
@@ -50,6 +51,13 @@ Lambda/Function Objects
 - Lambda Declaration
 - Lambda as Method Parameter
 - Scope Capture
+
+Generics
+- Syntax
+- Using Collections
+
+Enumeration:
+- Usage
 
 Error Handling
 - Exception Handling
