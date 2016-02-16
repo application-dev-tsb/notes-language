@@ -74,7 +74,9 @@ Public API
 - Interface
 - Protocols/Delegates
 
-Extensions (Swift/ObjC)
+Class Modification
+- Extension
+- Categories
 
 Lambda/Function Objects/Blocks
 - Lambda Declaration
