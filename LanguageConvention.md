@@ -4,6 +4,7 @@ Basics:
 - Comments
 - Console Read/Write 
 - Variable/Constant Declaration
+- Import Libraries
 
 Data Types:
 - Native/Basic Data Types (short, int, long, double, float, byte, char) 
