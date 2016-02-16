@@ -1,6 +1,9 @@
 # Notes for Programming Languages
 A Reminder for my Future Self on How To Get Things Done. Included in this great wall of texts are novice language stuffs which I would probably forget/confuse when I start using all of them simultaneously.
 
+## Python
+* Basics
+
 ## Java
 * [Basics](/Java/Basics.md)
 * [Access Modifiers](/Java/AccessModifier.md)
