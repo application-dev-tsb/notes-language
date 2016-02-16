@@ -64,6 +64,7 @@ A Reminder for my Future Self on How To Get Things Done. Included in this great 
 * [Heap Allocation](/C/HeapAllocation.md)
 
 ## C-Sharp
+* Basics
 * Variables
 * Functions
 * Properties
