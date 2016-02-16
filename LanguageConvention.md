@@ -1,23 +1,25 @@
 # Language Convention
 
-Basics:
+Basics
 - Comments
 - Console Read/Write 
 - Variable/Constant Declaration
 - Assigment Operator
 - Import Libraries
 
-Data Types:
+Data Types
 - Native/Basic Data Types (short, int, long, double, float, byte, char, boolean) 
 - Common Data Types (String, BigInteger, Decimal, Date, Random)
 
-Arithmetic Operations
+Operations
 - Addition
 - Subtraction
 - Division
 - Multiplication
 - Modulo
 - Bitwise Shift
+- Conditional
+- Logical
 
 Control Flow
 - Conditional (if-elseif-else)
@@ -39,11 +41,11 @@ Class
 - Properties
 - Methods
 
-Inheritance:
+Inheritance
 - Declaration
 - Abstract Class
 
-Public API:
+Public API
 - Interface
 - Protocols/Delegates
 
