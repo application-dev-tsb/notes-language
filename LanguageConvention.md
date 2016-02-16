@@ -57,6 +57,8 @@ Function
 Class
 - Declaration
 - Properties
+- Constructor
+- Destructor
 - Methods
 
 Inheritance
