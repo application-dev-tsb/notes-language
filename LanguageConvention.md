@@ -7,8 +7,8 @@ Basics:
 - Import Libraries
 
 Data Types:
-- Native/Basic Data Types (short, int, long, double, float, byte, char) 
-- Common Data Types (String, BigInteger, Date)
+- Native/Basic Data Types (short, int, long, double, float, byte, char, boolean) 
+- Common Data Types (String, BigInteger, Decimal, Date)
 
 Arithmetic Operations
 - Addition
@@ -24,8 +24,9 @@ Control Flow
 - Switch
 
 Collections
-- Data Structures (List, Map, Dictionary, Array)
+- Data Structures (List, Set, Map, Dictionary, Array)
 - Iteration
+- Stream
 
 Function
 - Declaration
@@ -39,13 +40,17 @@ Class
 
 Inheritance:
 - Declaration
+- Abstract Class
 
 Public API:
 - Interface
 - Protocols/Delegates
 
 Lambda/Function Objects
-- Lambda
+- Lambda Declaration
+- Lambda as Method Parameter
+- Scope Capture
 
 Error Handling
-- Exception
+- Exception Handling
+- Throwing an Exception
