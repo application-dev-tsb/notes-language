@@ -8,9 +8,23 @@ Basics
 - Import Libraries
 - Naming Conventions
 
-Data Types
-- Native/Basic Data Types (short, int, long, double, float, byte, char, boolean) 
-- Common Data Types (String, BigInteger, Decimal, Date, Random)
+Native/Basic Data Types 
+- short
+- int
+- long
+- double
+- float
+- byte
+- char
+- boolean
+
+Object Data Types 
+- Tuple
+- String
+- BigInteger
+- Decimal
+- Date
+- Random
 
 Operations
 - Addition
@@ -53,7 +67,9 @@ Public API
 - Interface
 - Protocols/Delegates
 
-Lambda/Function Objects
+Extensions (Swift/ObjC)
+
+Lambda/Function Objects/Blocks
 - Lambda Declaration
 - Lambda as Method Parameter
 - Scope Capture
