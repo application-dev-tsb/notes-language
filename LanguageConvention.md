@@ -21,6 +21,8 @@ Operations
 - Bitwise Shift
 - Conditional
 - Logical
+- Ternary Logical Operator
+- Increment/Decrement
 
 Control Flow
 - Conditional (if-elseif-else)
