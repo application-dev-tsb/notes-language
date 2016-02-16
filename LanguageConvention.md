@@ -9,9 +9,8 @@ Basics:
 Data Types:
 - Native/Basic Data Types (short, int, long, double, float, byte, char) 
 - Common Data Types (String, BigInteger, Date)
-- Data Structures (List, Map, Dictionary, Array)
 
-Arithmetic Operations:
+Arithmetic Operations
 - Addition
 - Subtraction
 - Division
@@ -19,26 +18,34 @@ Arithmetic Operations:
 - Modulo
 - Bitwise Shift
 
-Control Flow:
+Control Flow
 - Conditional (if-elseif-else)
 - Loops
 - Switch
 
-Function:
+Collections
+- Data Structures (List, Map, Dictionary, Array)
+- Iteration
+
+Function
 - Declaration
 - Parameter
 - Return Type
 
-Class:
+Class
 - Declaration
 - Properties
 - Methods
 
 Inheritance:
-- 
+- Declaration
 
 Public API:
 - Interface
+- Protocols/Delegates
+
+Lambda/Function Objects
+- Lambda
 
 Error Handling
 - Exception
