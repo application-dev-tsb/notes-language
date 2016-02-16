@@ -74,7 +74,7 @@ Public API
 - Interface
 - Protocols/Delegates
 
-Class Modification
+Customizing Existing Class
 - Extension
 - Categories
 
@@ -96,3 +96,6 @@ Error Handling
 
 Metadata/Annotations
 - Annotations
+
+Compiler Directives
+- Conditional Code Blocks
