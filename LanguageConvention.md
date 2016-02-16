@@ -38,6 +38,11 @@ Operations
 - Ternary Logical Operator
 - Increment/Decrement
 
+String Operations
+- Contatination
+- Interpolation
+- Formatting
+
 Control Flow
 - Conditional (if-elseif-else)
 - Loop
