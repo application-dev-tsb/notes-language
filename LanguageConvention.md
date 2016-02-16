@@ -28,6 +28,7 @@ Control Flow
 - Conditional (if-elseif-else)
 - Loop
 - Switch
+- GoTo/Continue/Break
 
 Collections
 - Data Structures (List, Set, Map, Dictionary, Array)
