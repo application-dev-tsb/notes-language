@@ -103,6 +103,9 @@ Compiler Directives
 
 Multithreading
 
+Access Control
+- Private classes
+
 Reference
 - Strong
 - Weak
