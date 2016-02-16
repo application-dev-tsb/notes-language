@@ -1,9 +1,7 @@
 # Notes for Programming Languages
 A Reminder for my Future Self on How To Get Things Done. Included in this great wall of texts are novice language stuffs which I would probably forget/confuse when I start using all of them simultaneously.
 
-#Table Of Contents
-
-# Java
+## Java
 * [Basics](/Java/Basics.md)
 * [Access Modifiers](/Java/AccessModifier.md)
 * [Native Data Types](/Java/NativeDataTypes.md)
@@ -28,7 +26,22 @@ A Reminder for my Future Self on How To Get Things Done. Included in this great 
 * IO and NIO
 * Concurrency
 
-# Javascript
+## Groovy
+* Variables
+* Class
+* Arithmetic Operations
+
+## Ruby
+* Variables
+* Class
+* Arithmetic Operations
+
+## Javascript
+* Variables and Scope
+* Common Data Types
+* Function
+* Inheritance: Prototype
+* Arithmetic Operations
 
 # C
 * [Basics](/C/Basics.md)
