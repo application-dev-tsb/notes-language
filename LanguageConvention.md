@@ -32,11 +32,12 @@ Operations
 - Division
 - Multiplication
 - Modulo
+- Increment/Decrement
 - Bitwise Shift
 - Conditional
 - Logical
 - Ternary Logical Operator
-- Increment/Decrement
+- Subscript
 
 String Operations
 - Contatination
@@ -99,3 +100,9 @@ Metadata/Annotations
 
 Compiler Directives
 - Conditional Code Blocks
+
+Multithreading
+
+Reference
+- Strong
+- Weak
