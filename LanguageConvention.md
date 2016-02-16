@@ -6,6 +6,7 @@ Basics
 - Variable/Constant Declaration
 - Assigment Operator
 - Import Libraries
+- Naming Conventions
 
 Data Types
 - Native/Basic Data Types (short, int, long, double, float, byte, char, boolean) 
