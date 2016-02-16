@@ -19,12 +19,19 @@ A Reminder for my Future Self on How To Get Things Done. Included in this great 
 * [Optionals](http://www.oracle.com/technetwork/articles/java/java8-optional-2175753.html)
 * [Weak References](https://docs.oracle.com/javase/7/docs/api/java/lang/ref/WeakReference.html)
 * Annotations
-
-###### Java 8
 * [Lambda Expressions](/Java/Lambda.md)
 * Stream API
 * IO and NIO
 * Concurrency
+
+## Scala
+* Variables
+* Common Data Types
+* Common Data Structures
+* Loops
+* Arithmetic Operations
+* Class
+* Functions
 
 ## Groovy
 * Variables
@@ -43,7 +50,7 @@ A Reminder for my Future Self on How To Get Things Done. Included in this great 
 * Inheritance: Prototype
 * Arithmetic Operations
 
-# C
+## C
 * [Basics](/C/Basics.md)
 * [Control Flow](/C/ControlFlow.md)
 * [Operators](/C/Operators.md)
@@ -56,17 +63,18 @@ A Reminder for my Future Self on How To Get Things Done. Included in this great 
 * [Input and Output](/C/InputAndOutput.md)
 * [Heap Allocation](/C/HeapAllocation.md)
 
-# C-Sharp
+## C-Sharp
 * Variables
 * Functions
 * Properties
 * Inheritance
+* 
 
 References:
 
 [GNU C Reference](http://www.gnu.org/software/gnu-c-manual/gnu-c-manual.html)
 
-# Objective C
+## Objective C
 * [Classes](/ObjectiveC/Classes.md)
 * [Properties](/ObjectiveC/Properties.md)
 * [Blocks](/ObjectiveC/Blocks.md)
@@ -79,7 +87,7 @@ References:
 
 [Apple ObjectiveC Guide](https://developer.apple.com/library/mac/documentation/Cocoa/Conceptual/ProgrammingWithObjectiveC/Introduction/Introduction.html)
 
-# Swift
+## Swift
 * [Basics](/Swift/Basics.md)
 * [Control Flow](/Swift/ControlFlow.md)
 * [Functions/Methods/Subscripts] (Swift/FunctionsAndMethods.md)
@@ -101,8 +109,6 @@ References:
 * [Generics](/Swift/Generics.md)
 * [Type Casting](/Swift/TypeCasting.md)
 * Access Control
-
-###### Swift 2
 * [Error Handling](https://developer.apple.com/library/prerelease/ios/documentation/Swift/Conceptual/Swift_Programming_Language/ErrorHandling.html#//apple_ref/doc/uid/TP40014097-CH42-ID508)
 
 References:
