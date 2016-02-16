@@ -43,6 +43,12 @@ A Reminder for my Future Self on How To Get Things Done. Included in this great 
 * [Input and Output](/C/InputAndOutput.md)
 * [Heap Allocation](/C/HeapAllocation.md)
 
+# C-Sharp
+* Variables
+* Functions
+* Properties
+* Inheritance
+
 References:
 
 [GNU C Reference](http://www.gnu.org/software/gnu-c-manual/gnu-c-manual.html)
