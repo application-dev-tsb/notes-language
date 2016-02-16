@@ -1,4 +1,4 @@
-# Notes
+# Notes for Programming Languages
 A Reminder for my Future Self on How To Get Things Done. Included in this great wall of texts are novice language stuffs which I would probably forget/confuse when I start using all of them simultaneously.
 
 #Table Of Contents
@@ -89,31 +89,6 @@ References:
 References:
 
 [Apple Swift Language Guide](https://developer.apple.com/library/ios/documentation/Swift/Conceptual/Swift_Programming_Language/index.html#//apple_ref/doc/uid/TP40014097-CH3-ID0)
-
-# SQL
-* Database
-* Table
-* Query
-* Delete
-* Truncate
-* [Joins](/SQL/Joins.md)
-* Auto Increment
-* Transactions
-* Locking
-* Constraint
-* Index
-* Cluster/Noncluster Index
-* Collation
-* Functions
-* User Defined Functions
-* Stored Procedures
-* Data Warehouse
-
-### Design Patterns
-* Strategy
-* Factory
-* Singleton
-* MVC
 
 # References
 * [Markdown Files](https://help.github.com/articles/github-flavored-markdown/)
