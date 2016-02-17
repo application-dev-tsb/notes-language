@@ -77,7 +77,10 @@ import com.a._ //all members of a
 import com.a.MyClass //MyClass
 import p1._, p2._ //multiple imports
 import p.{x => a} //the member x renamed as a
+
+import scala._ //automatically imported
 ```
+
 
 ##### Resources:
 - [Scala: String Interpolation](http://docs.scala-lang.org/overviews/core/string-interpolation.html)
