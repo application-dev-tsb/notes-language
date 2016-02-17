@@ -83,5 +83,6 @@ import scala._ //automatically imported
 
 
 ##### Resources:
+- [Scala: Tour/Introduction](http://docs.scala-lang.org/tutorials/tour/tour-of-scala)
 - [Scala: String Interpolation](http://docs.scala-lang.org/overviews/core/string-interpolation.html)
 - [Scala: Naming Conventions](http://docs.scala-lang.org/style/naming-conventions.html)
