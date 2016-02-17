@@ -42,6 +42,7 @@ Operations
 - Logical
 - Ternary Logical Operator
 - Subscript
+- Custom Operator
 
 String Operations
 - Concatination
