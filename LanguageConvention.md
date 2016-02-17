@@ -64,7 +64,8 @@ Collections
 - Iteration
 - Search
 - Sort
-- Stream
+- Range
+- Stream/Sequence Comprehension
 
 Function
 - Declaration
