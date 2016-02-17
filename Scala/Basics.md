@@ -43,6 +43,18 @@ var intInput: Int = readLine.toInt
 intInput = readInt //equivalent methods also exists for Long, Short, Double, Float, Char, Byte, Boolean
 ```
 
+#### Variable/Constant Declaration
+- variable
+```scala
+var myVariable: Int = 1
+var myVariable = 1 //data type is optional, it can be infered from assignment
+```
+- constant
+```scala
+val myVariable = 1 
+myVariable = 2 //ERROR: reassignment to val
+```
+
 #### Package/Namespace
 ```scala
 package p1 {
