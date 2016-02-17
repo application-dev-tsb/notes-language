@@ -74,7 +74,8 @@ Class
 - Properties
 - Constructor
 - Destructor
-- Methods
+- Method
+- Method Overloading
 - Inner Class
 - Partial Class
 - Static Properties
@@ -83,6 +84,7 @@ Class
 Inheritance
 - Declaration
 - Abstract Class
+- Method Overriding
 
 Polymorphism
 - Interface
