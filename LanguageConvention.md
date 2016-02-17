@@ -47,6 +47,7 @@ String Operations
 - Formatting
 - Substring
 - Needle Search
+- StringBuilder
 
 Control Flow
 - Conditional (if-elseif-else)
