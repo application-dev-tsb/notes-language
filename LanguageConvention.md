@@ -38,10 +38,9 @@ Operations
 - Logical
 - Ternary Logical Operator
 - Subscript
-- Type Checker (instanceof, is, typeof)
 
 String Operations
-- Contatination
+- Concatination
 - Interpolation
 - Formatting
 
@@ -72,9 +71,11 @@ Inheritance
 - Declaration
 - Abstract Class
 
-Public API
+Polymorphism
 - Interface
 - Protocols/Delegates
+- Type Checker (instanceof, is, typeof)
+- Method Checker (respondsToSelector)
 
 Customizing Existing Class
 - Extension
@@ -101,11 +102,6 @@ Metadata/Annotations
 
 Compiler Directives
 - Conditional Code Blocks
-
-Multithreading
-
-Access Control
-- Private classes
 
 Reference
 - Strong
