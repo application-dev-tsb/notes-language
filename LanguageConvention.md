@@ -71,6 +71,8 @@ Class
 - Constructor
 - Destructor
 - Methods
+- Inner Class
+- Partial Class
 
 Inheritance
 - Declaration
