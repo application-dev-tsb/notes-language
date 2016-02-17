@@ -4,11 +4,12 @@ Basics
 - Comments
 - Console Read/Write 
 - Variable/Constant Declaration
-- Assigment Operator
+- Package/Namespace
 - Import Libraries
 - Naming Conventions
 
 Native/Basic Data Types 
+- boolean
 - short
 - int
 - long
@@ -16,7 +17,8 @@ Native/Basic Data Types
 - float
 - byte
 - char
-- boolean
+- string
+
 
 Object Data Types 
 - Tuple
