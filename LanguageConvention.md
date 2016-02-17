@@ -73,6 +73,7 @@ Function
 - Return Type
 - Anonymous Function
 - Currying
+- Higher-Order Functions
 
 Class
 - Declaration
