@@ -28,6 +28,7 @@ A Reminder for my Future Self on How To Get Things Done. Included in this great 
 * Concurrency
 
 ## Scala
+* [Basics](Scala/Basics.md)
 * Variables
 * Common Data Types
 * Common Data Structures
