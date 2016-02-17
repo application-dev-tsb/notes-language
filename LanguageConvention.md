@@ -60,6 +60,8 @@ Control Flow
 Collections
 - Data Structures (List, Set, Map, Dictionary, Array)
 - Iteration
+- Search
+- Sort
 - Stream
 
 Function
