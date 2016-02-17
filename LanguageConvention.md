@@ -102,6 +102,7 @@ Polymorphism
 Customizing Existing Class
 - Extension
 - Categories
+- Mixin
 
 Closure
 - Declaration
