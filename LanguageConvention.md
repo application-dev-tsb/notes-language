@@ -45,6 +45,8 @@ String Operations
 - Concatination
 - Interpolation
 - Formatting
+- Substring
+- Needle Search
 
 Control Flow
 - Conditional (if-elseif-else)
