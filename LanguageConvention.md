@@ -107,6 +107,7 @@ Metadata/Annotations
 Compiler Directives
 - Conditional Code Blocks
 
-Reference
-- Strong
-- Weak
+Reference Object Autodeallocation
+- ARC
+- Manual 
+- Garbage Collector
