@@ -1,6 +1,7 @@
 # Language Convention
 
 Basics
+- Hello World
 - Comments
 - Console Read/Write 
 - Variable/Constant Declaration
