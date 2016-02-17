@@ -71,6 +71,8 @@ Function
 - Declaration
 - Parameter
 - Return Type
+- Anonymous Function
+- Currying
 
 Class
 - Declaration
