@@ -28,5 +28,7 @@ println("Output")
 ```
 - standard input
 ```scala
-xxx
+var input: String = readLine
+var intInput: Int = readLine.toInt
+intInput = readInt //equivalent methods also exists for Long, Short, Double, Float, Char, Byte, Boolean
 ```
