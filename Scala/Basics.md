@@ -48,5 +48,7 @@ intInput = readInt //equivalent methods also exists for Long, Short, Double, Flo
 import scala.io.StdIn.{readLine, readInt} //static member import: do this to avoid the deprecation warning
 import scala.math._
 import scala.collection.mutable.ArrayBuffer
-
 ```
+
+##### Resources:
+- [Scala: String Interpolation](http://docs.scala-lang.org/overviews/core/string-interpolation.html)
