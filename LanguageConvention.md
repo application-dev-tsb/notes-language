@@ -81,6 +81,7 @@ Class
 - Partial Class
 - Static Properties
 - Static Methods
+- Property Observers
 
 Inheritance
 - Declaration
