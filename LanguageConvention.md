@@ -38,6 +38,7 @@ Operations
 - Logical
 - Ternary Logical Operator
 - Subscript
+- Type Checker (instanceof, is, typeof)
 
 String Operations
 - Contatination
