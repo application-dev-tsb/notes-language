@@ -72,7 +72,7 @@ A Reminder for my Future Self on How To Get Things Done. Included in this great 
 * Functions
 * Properties
 * Inheritance
-* 
+* [Language Special: LINQ](C-Sharp/LanguageSpecialLINQ.md)
 
 References:
 
