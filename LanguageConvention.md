@@ -8,7 +8,7 @@ Basics
 - Import Libraries
 - Naming Conventions
 
-Native/Basic Data Types 
+Value Types (Passed By Value)
 - boolean
 - short
 - int
@@ -18,14 +18,16 @@ Native/Basic Data Types
 - byte
 - char
 - string
+- struct
 
-
-Object Data Types 
+Reference Types (Passed By Reference)
 - Tuple
+- Object
 - String
 - BigInteger
-- Decimal
+- BigDecimal
 - Date
+- TimeStamp
 - Random
 
 Operations
@@ -88,9 +90,9 @@ Customizing Existing Class
 - Extension
 - Categories
 
-Lambda/Function Objects/Blocks
-- Lambda Declaration
-- Lambda as Method Parameter
+Closure
+- Declaration
+- Lambda Type
 - Scope Capture
 
 Generics
