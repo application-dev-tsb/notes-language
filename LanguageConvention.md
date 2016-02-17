@@ -101,6 +101,7 @@ Closure
 - Declaration
 - Lambda Type
 - Scope Capture
+- Delegate Function (C-sharp)
 
 Generics
 - Syntax
