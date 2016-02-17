@@ -43,11 +43,28 @@ var intInput: Int = readLine.toInt
 intInput = readInt //equivalent methods also exists for Long, Short, Double, Float, Char, Byte, Boolean
 ```
 
+#### Package/Namespace
+```scala
+package p1 {
+  object test extends Application {
+    println("p1.test")
+  }
+}
+
+package p2 {
+  object test extends Application {
+    println("p2.test")
+  }
+}
+```
+
 #### Import Libraries
 ```scala
-import scala.io.StdIn.{readLine, readInt} //static member import: do this to avoid the deprecation warning
-import scala.math._
-import scala.collection.mutable.ArrayBuffer
+import com.a.{b, c, d} //members b, c, and d
+import com.a._ //all members of a
+import com.a.MyClass //MyClass
+import p1._, p2._ //multiple imports
+import p.{x => a} //the member x renamed as a
 ```
 
 ##### Resources:
