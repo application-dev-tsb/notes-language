@@ -77,6 +77,8 @@ Class
 - Methods
 - Inner Class
 - Partial Class
+- Static Properties
+- Static Methods
 
 Inheritance
 - Declaration
