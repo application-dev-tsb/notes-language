@@ -25,6 +25,16 @@ object Main {
 - standard output
 ```scala
 println("Output")
+
+val name = "Test"
+val age = 3
+val weight = 10.013432423432
+
+//Hello Test
+println(s"Hello $name") 
+
+//I can do computations like 4 and weight 10.01
+println(f"I can do computations like ${age + 1} and weight $weight%.2f")
 ```
 - standard input
 ```scala
