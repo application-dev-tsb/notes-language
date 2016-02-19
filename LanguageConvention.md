@@ -21,12 +21,11 @@ Value Types (Passed By Value)
 - string
 - struct
 
-Reference Types (Passed By Reference)
+Commonly-Used Reference Types (Passed By Reference)
 - Tuple
-- Object
+- Optional
+- Function
 - String
-- BigInteger
-- BigDecimal
 - Date
 - TimeStamp
 - Random
