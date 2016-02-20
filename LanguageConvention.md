@@ -8,9 +8,8 @@ Basics
 - Package/Namespace
 - Import Libraries
 - Naming Conventions
-- Things that are NOT IN JAVA
-- Things that are NOT IN THIS LANGUAGE
-- Minor Differences with JAVA
+- Things that are NOT IN Java
+- Things that are NOT IN X-Language
 
 Value Types (Passed By Value)
 - boolean
