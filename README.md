@@ -69,10 +69,14 @@ A Reminder for my Future Self on How To Get Things Done. Included in this great 
 
 ## C-Sharp
 * Basics
+* Object Types
+* Struct
 * Variables
 * Functions
+* Operator Overloading
 * Properties
 * Inheritance
+* Partial Classes
 * [Language Special: LINQ](C-Sharp/LanguageSpecialLINQ.md)
 
 References:
