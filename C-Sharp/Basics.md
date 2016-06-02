@@ -67,7 +67,7 @@ Console.WriteLine("carVehicle is Car:{0}", carVehicle is Car); //True
 
 ## Type Casting
 ```c#
- Vehicle castedCar = car; //OK
- Car forceCastedCar = (Car)carVehicle; //OK
+ Vehicle castedCar = car; //OK: No Need to Explicitely Cast, Car 'is a' Vehicle
+ Car forceCastedCar = (Car)carVehicle; //OK: Cast only if you are certain that this is a Car
  Car notACar = (Car)vehicle; //InvalidCastException
 ```
