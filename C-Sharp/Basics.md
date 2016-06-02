@@ -47,3 +47,20 @@ var world = "World"; //this is a "string"
     * multiline comment
     */
 ```
+
+## Type Resolution
+```c#
+// Assume that Car inherits from Vehicle
+Car car = new Car();
+Vehicle vehicle = new Vehicle();
+Vehicle carVehicle = new Car();
+
+//is => "is a" or inherited from
+//evaluates the runtime type
+Console.WriteLine("car is Car:{0}", car is Car); //True
+Console.WriteLine("car is Vehicle:{0}", car is Vehicle); //True
+Console.WriteLine("vehicle is Car:{0}", vehicle is Car); //False
+Console.WriteLine("vehicle is Vehicle:{0}", vehicle is Vehicle); //True
+Console.WriteLine("carVehicle is Vehicle:{0}", carVehicle is Vehicle); //True
+Console.WriteLine("carVehicle is Car:{0}", carVehicle is Car); //True
+```
