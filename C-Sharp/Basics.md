@@ -64,3 +64,10 @@ Console.WriteLine("vehicle is Vehicle:{0}", vehicle is Vehicle); //True
 Console.WriteLine("carVehicle is Vehicle:{0}", carVehicle is Vehicle); //True
 Console.WriteLine("carVehicle is Car:{0}", carVehicle is Car); //True
 ```
+
+## Type Casting
+```c#
+ Vehicle castedCar = car; //OK
+ Car forceCastedCar = (Car)carVehicle; //OK
+ Car notACar = (Car)vehicle; //InvalidCastException
+```
