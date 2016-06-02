@@ -25,25 +25,25 @@ namespace Basics
 
 ## Variable
 ```c#
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+int x = 1;
+int y = 2;
+int sum = x + y;
+```
 
-namespace Basics
-{
-    class Program
-    {
-        static void Main(string[] args)
-        {
-            int x = 1;
-            int y = 2;
-            int sum = x + y;
+## Type Inference
+```c#
+var world = "World"; //this is a "string"
+```
 
-            Console.WriteLine("Sum:{0}", sum);
-            Console.ReadLine();
-        }
-    }
-}
+## Single-Line Comment
+```c#
+//this is a single-line comment
+```
+
+## Multi-Line Comment
+```c#
+   /**
+    * this is a 
+    * multiline comment
+    */
 ```
