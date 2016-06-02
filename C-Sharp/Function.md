@@ -19,32 +19,35 @@
 ## Overloading
 
 ## Overriding
-##### Overriding with "override" Keyword
-The runtime type takes over
 ```c#
 class BaseClass
 {
   public virtual void MethodA()
   {
-    Console.WriteLine("BC: A");
+    Console.WriteLine("BC");
   }
 }
 
 class DerivedClass : BaseClass
 {
-  public override void MethodA()
+  public <new or override> void MethodA()
   {
-    Console.WriteLine("DC: A");
+    Console.WriteLine("DC");
   }
 }
 
 BaseClass bc = new BaseClass();
 DerivedClass dc = new DerivedClass();
 BaseClass bcdc = new DerivedClass();
+```
+##### Overriding with "override" Keyword
+The runtime type takes over
+```c#
+public override void MethodA()
 
-bc.MethodA(); //BC: A
-dc.MethodA(); //DC: A
-bcdc.MethodA(); //DC: A
+bc.MethodA(); //BC
+dc.MethodA(); //DC
+bcdc.MethodA(); //DC
 ```
 
 ##### Overriding with "new" Keyword
@@ -52,9 +55,9 @@ The declared type gets to run, ignoring the derived class implementation
 ```c#
 public new void MethodA()
 
-bc.MethodA(); //BC: A
-dc.MethodA(); //DC: A
-bcdc.MethodA(); //DC: A
+bc.MethodA(); //BC
+dc.MethodA(); //DC
+bcdc.MethodA(); //BC
 ```
 
 
