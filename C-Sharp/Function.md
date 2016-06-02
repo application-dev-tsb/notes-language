@@ -52,6 +52,7 @@ bcdc.MethodA(); //DC
 
 ##### Overriding with "new" Keyword
 The declared type gets to run, ignoring the derived class implementation
+Methods from the Base class will not see the "new" method.
 ```c#
 public new void MethodA()
 
