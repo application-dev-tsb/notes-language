@@ -32,6 +32,7 @@ A Reminder for my Future Self on How To Get Things Done. Included in this great 
 * Variables
 * Common Data Types
 * Common Data Structures
+* Expression Evaluation: Call by Name and Call by Value
 * Loops
 * Arithmetic Operations
 * Class
