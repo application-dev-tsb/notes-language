@@ -1,6 +1,6 @@
 # Function Evaluation: Call by Name VS. Call by Value
 
-Call by Value: Default, Evaluate before function Start
+Call by Value: Default, Evaluate the function's value first
 ```scala
 object MyApp extends App {
 
