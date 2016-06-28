@@ -1,17 +1,39 @@
 # Function Evaluation: Call by Name VS. Call by Value
 
+Call by Value: Default, Evaluate before function Start
 ```scala
-object RunWithSideEffect extends App {
+object MyApp extends App {
 
   def f1(x: Int): Int = {
-    print("side effect -> ")
+    println("side effect")
     return 1
   }
 
   def f2(x: Int) = {
-    println("run f2")
+    println("start f2")
+    println("f2 run " + x)
+    println("f2 run " + x)
   }
 
-  f2(f1(1)) //side effect -> run f2
+  f2(f1(1))
 }
+
+side effect
+start f2
+f2 run 1
+f2 run 1
+```
+
+Call by Name: Delayed Evaluation
+```
+.
+.
+  def f2(x: => Int) = {
+.
+.
+start f2
+side effect
+f2 run 1
+side effect
+f2 run 1
 ```
