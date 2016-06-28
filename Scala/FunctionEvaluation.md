@@ -25,7 +25,7 @@ f2 run 1
 ```
 
 Call by Name: Delayed Evaluation
-```
+```scala
 .
 .
   def f2(x: => Int) = {
