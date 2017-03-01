@@ -124,6 +124,8 @@ References:
 
 ## R
 * Common Functions
+* Vector and Sequence Operations
+
 
 ## Python
 * Basics
