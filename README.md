@@ -11,7 +11,7 @@ A Reminder for my Future Self on How To Get Things Done. Included in this great 
 * Important Objects
 * Methods
 * Data Types
-* Operators
+* [Operators](/Java/Operators.md)
 * Classes and Objects
 * Interface
 * Generics
