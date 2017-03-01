@@ -1,9 +1,6 @@
 # Notes for Programming Languages
 A Reminder for my Future Self on How To Get Things Done. Included in this great wall of texts are novice language stuffs which I would probably forget/confuse when I start using all of them simultaneously.
 
-## Python
-* Basics
-
 ## Java
 * [Basics](/Java/Basics.md)
 * [Access Modifiers](/Java/AccessModifier.md)
@@ -125,8 +122,12 @@ References:
 
 [Apple Swift Language Guide](https://developer.apple.com/library/ios/documentation/Swift/Conceptual/Swift_Programming_Language/index.html#//apple_ref/doc/uid/TP40014097-CH3-ID0)
 
-# R
+## R
 * Common Functions
+
+## Python
+* Basics
+
 
 # References
 * [Markdown Files](https://help.github.com/articles/github-flavored-markdown/)
