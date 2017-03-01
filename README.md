@@ -125,6 +125,9 @@ References:
 
 [Apple Swift Language Guide](https://developer.apple.com/library/ios/documentation/Swift/Conceptual/Swift_Programming_Language/index.html#//apple_ref/doc/uid/TP40014097-CH3-ID0)
 
+# R
+* Common Functions
+
 # References
 * [Markdown Files](https://help.github.com/articles/github-flavored-markdown/)
 * [Language Syntax Highlighting](http://tinker.kotaweaver.com/blog/?p=152)
