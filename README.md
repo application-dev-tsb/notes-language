@@ -34,6 +34,7 @@ A Reminder for my Future Self on How To Get Things Done. Included in this great 
 * Arithmetic Operations
 * Class
 * Functions
+* [Interface (Traits)](Scala/Traits.md)
 
 ## Groovy
 * Variables
