@@ -5,6 +5,8 @@ Equivalent to Java Interfaces
 ```scala
 trait IsAwesome {
   def isAwesome(x: Any): Boolean
+  
+  //traits can also have default implementations
   def isNotAwesome(x: Any): Boolean = !isAwesome(x)
 }
 ```
