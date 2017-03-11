@@ -27,8 +27,9 @@ A Reminder for my Future Self on How To Get Things Done. Included in this great 
 ## Scala
 * [Basics](Scala/Basics.md)
 * Variables
-* Common Data Types
-* Common Data Structures
+* Case Classes
+* Commonly-Used Data Types
+* Collections and Collection Methods
 * [Expression Evaluation: Call by Name and Call by Value](Scala/FunctionEvaluation.md)
 * Loops
 * Arithmetic Operations
