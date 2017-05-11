@@ -1,6 +1,27 @@
 # Python: Basics
 
-## Variables
+## Hello World
+```python
+print 'Hello World'
+```
+
+## Comments
+```python
+# this is a comments
+```
+
+## Console Read/Write
+```
+user_input = input("Please Enter Something:")
+print "You Have Entered:", user_input
+```
+
+## Variable Declaration
+```
+x = 1
+y = 0.1
+z = 'A Text'
+```
 
 ## Data Types
 ```python
