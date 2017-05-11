@@ -131,7 +131,7 @@ References:
 
 
 ## Python
-* Basics
+* [Basics](/Python/Basics.md)
 
 
 # References
