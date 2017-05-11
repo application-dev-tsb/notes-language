@@ -17,18 +17,28 @@ print "You Have Entered:", user_input
 ```
 
 ## Variable Declaration
-```
+```python
 x = 1
 y = 0.1
 z = 'A Text'
 ```
+## Modules (Package)
+Python file names are the module names
 
-## Data Types
+## Import Modules (Libraries)
 ```python
-int_var = 1
-string_var = 'mystring'
-string_var = "mystring"
-float_var = 10.0 
-```
+# import the entire module
+import modulename
+modulename.method1(xx)
 
-## Operators
+# import specific methods to use them directly without
+# refering to the module
+from modulename import method1, method2
+method2(xx)
+
+# frowned upon by most developers
+# conflict-prone
+from filename import *
+method2(xx)
+method1(xx)
+```
