@@ -7,9 +7,8 @@ Basics
 - Variable/Constant Declaration
 - Package/Namespace
 - Import Libraries
-- Naming Conventions
-- Things that are NOT IN Java
-- Things that are NOT IN X-Language
+- List of Things that are NOT IN Java
+- List of Things that are NOT IN This Language
 
 Value Types (Passed By Value)
 - boolean
