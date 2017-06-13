@@ -38,6 +38,7 @@ A Reminder for my Future Self on How To Get Things Done. Included in this great 
 * [Interface (Traits)](Scala/Traits.md)
 * Dynamic (Runtime Resolution of Methods)
 * Implicit Conversion
+* XML Literals
 
 ## Groovy
 * Variables
