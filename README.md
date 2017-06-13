@@ -36,6 +36,8 @@ A Reminder for my Future Self on How To Get Things Done. Included in this great 
 * Class
 * Functions
 * [Interface (Traits)](Scala/Traits.md)
+* Dynamic (Runtime Resolution of Methods)
+* Implicits
 
 ## Groovy
 * Variables
