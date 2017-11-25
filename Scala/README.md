@@ -5,6 +5,6 @@ Object-oriented and Functional language. I probably will only use this with Spar
 - Collections
 - String
 - Implicit Classes
-- Akka
+- Akka (Actors)
 
 [Reference: Scala Docs](http://docs.scala-lang.org/overviews/index.html)
