@@ -20,7 +20,7 @@ object StringInterpolation {
     val ordinaryString = "a\nb\nc"
     println(s"Ordinary String with Escape: $ordinaryString")
 
-    val rawString = raw"a\nb\bc"
+    val rawString = raw"a\nb\nc"
     println(s"Raw String with Escape: $rawString")
   }
 }
