@@ -15,5 +15,12 @@ object StringInterpolation {
 
     println("=================================")
     println(f"Formatted: $someDouble%5.2f")
+
+    //raw string: escape characters are not processed
+    val ordinaryString = "a\nb\nc"
+    println(s"Ordinary String with Escape: $ordinaryString")
+
+    val rawString = raw"a\nb\bc"
+    println(s"Raw String with Escape: $rawString")
   }
 }
