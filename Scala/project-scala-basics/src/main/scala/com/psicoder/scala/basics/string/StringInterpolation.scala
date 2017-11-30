@@ -6,6 +6,14 @@ object StringInterpolation {
     val someValue = 1
     val anotherValue = "Value"
 
-    println(s"Test $someValue $anotherValue")
+    println(s"Integer: $someValue, String: $anotherValue, Expression: ${someValue + 2}")
+
+    //formatted string literals
+    //for reference:
+    //https://docs.oracle.com/javase/6/docs/api/java/util/Formatter.html#detail
+    val someDouble = 210.0002
+
+    println("=================================")
+    println(f"Formatted: $someDouble%5.2f")
   }
 }
