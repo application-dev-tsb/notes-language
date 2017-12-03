@@ -5,6 +5,7 @@ Object-oriented and Functional language. I probably will only use this with Spar
 - Collections
 - String
 - Implicit Classes
+- Value Classes
 - Akka (Actors)
 
 ## References
