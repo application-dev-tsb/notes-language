@@ -1,5 +1,13 @@
 package com.psicoder.scala.implicits.utils
 
+/**
+  * Implicit Class Restrictions:
+  *
+  * 1.) they can only be declared inside another trait/class/object
+  * 2.) they may only take one non-implicit argument in their constructor
+  * 3.) methods, members, or objects cannot be the same name as the implicit class
+  * 4.) case classes cannot be implicit classes
+  */
 object PrintHelper {
 
   /**
