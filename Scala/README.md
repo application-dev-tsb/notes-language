@@ -4,8 +4,8 @@ Object-oriented and Functional language. I probably will only use this with Spar
 ## Important Topics
 - Collections
 - String
-- Implicit Classes
-- Value Classes
+- Implicit Classes: Magically wrap classes with new methods
+- Value Classes: Avoid heap objects
 - Akka (Actors)
 
 ## References
