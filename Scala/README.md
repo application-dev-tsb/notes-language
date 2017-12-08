@@ -1,5 +1,5 @@
 # Scala
-Object-oriented and Functional language. I probably will only use this with Spark. Strong inter-op with Java.
+Object-oriented and Functional language. I probably will only use this with Spark. Strong inter-op with Java. One of the prettiest language out there.
 
 ## Important Topics
 - Collections
